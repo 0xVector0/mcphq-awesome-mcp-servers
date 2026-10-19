@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 364 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 365 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1543,6 +1543,18 @@ Deploy and manage Vercel projects and deployments from AI clients.
 ## Communication and Productivity
 
 Integrate chat, email, calendars, and team collaboration tools.
+
+### /call-me
+
+Hosted MCP server that rings the user's iPhone, reads the agent's question aloud and returns the spoken answer as text; it can also text. Needs the /call-me iPhone app (paid subscription).
+
+- URL: https://github.com/radres/call-me
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: phone-call, voice, notifications, human-in-the-loop, ios
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://callmemcp.com/mcp
 
 ### Agent Media
 

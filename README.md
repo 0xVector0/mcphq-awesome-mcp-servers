@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-364-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-365-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (33)
 - [Filesystems and Documents](#filesystems-and-documents) (13)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (20)
-- [Communication and Productivity](#communication-and-productivity) (43)
+- [Communication and Productivity](#communication-and-productivity) (44)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (44)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (37)
 - [Legal and Court Data](#legal-and-court-data) (4)
@@ -371,6 +371,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
 
 Integrate chat, email, calendars, and team collaboration tools.
 
+- **[/call-me](https://github.com/radres/call-me)** `Python` — Hosted MCP server that rings the user's iPhone, reads the agent's question aloud and returns the spoken answer as text; it can also text. Needs the /call-me iPhone app (paid subscription).  
+  `phone-call` `voice` `notifications` `human-in-the-loop` `ios`
 - **[Agent Media](https://github.com/agent-media-ai/agent-media)** `Official` `Other` — Hosted MCP server for captioned vertical UGC, narrated b-roll overlays, reusable characters, images and voice from agent prompts.  
   `video` `ugc` `ai-video` `remote`
 - **[agentcomms](https://github.com/web3wes/agentcomms)** `Official` `Python` — Exchange end-to-end encrypted messages between AI agents through an account-free public hub or a self-hosted hub.  
