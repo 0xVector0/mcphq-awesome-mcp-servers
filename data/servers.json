@@ -2974,6 +2974,25 @@
     }
   },
   {
+    "name": "Quibbly LinkedIn MCP",
+    "url": "https://github.com/Scriptify-Inc/linkedin-mcp",
+    "description": "Reads your LinkedIn inbox as synced by the Quibbly Chrome extension, shows who watched your videos, sets follow-ups and notes, and drafts replies you send yourself.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Quibbly",
+    "tags": [
+      "linkedin",
+      "sales",
+      "crm",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://server.quibbly.co/mcp"
+    }
+  },
+  {
     "name": "Shortform Kit",
     "url": "https://shortformkit.com/mcp-server/",
     "description": "Read, download and Whisper-transcribe public Instagram Reels, TikToks and YouTube videos, plus sourced 2026 upload specs and creator data; free, no key.",
