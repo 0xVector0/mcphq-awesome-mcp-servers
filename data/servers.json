@@ -2872,6 +2872,24 @@
     }
   },
   {
+    "name": "HutchDB MCP Server",
+    "url": "https://github.com/ExpeditedProjects/hutchdb",
+    "description": "Shared database for teams and AI agents: store, query, and update structured records over MCP.",
+    "category": "databases-and-storage",
+    "language": "TypeScript",
+    "provider": "HutchDB",
+    "tags": [
+      "database",
+      "postgres",
+      "structured-data",
+      "collaboration"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.hutchdb.com/api/mcp"
+    }
+  },
+  {
     "name": "MakeAIVideo",
     "url": "https://github.com/makeaivideo-ai/mcp",
     "description": "Official MakeAIVideo server for creating short-form AI videos with voiceover, scenes, captions and music, then posting them to connected social accounts.",

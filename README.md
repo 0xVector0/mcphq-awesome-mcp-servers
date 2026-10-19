@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-364-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-365-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -42,7 +42,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 ## Catalog
 
 - [Official and Reference Servers](#official-and-reference) (11)
-- [Databases and Storage](#databases-and-storage) (15)
+- [Databases and Storage](#databases-and-storage) (16)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (42)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (33)
 - [Filesystems and Documents](#filesystems-and-documents) (13)
@@ -96,6 +96,8 @@ Query, manage, and explore databases, vector stores, and data warehouses.
   `sql` `postgres` `mysql`
 - **[Elasticsearch MCP Server](https://github.com/elastic/mcp-server-elasticsearch)** `Official` `TypeScript` — Search and analyze data in Elasticsearch clusters via MCP.  
   `search` `analytics` `elastic`
+- **[HutchDB MCP Server](https://github.com/ExpeditedProjects/hutchdb)** `Official` `TypeScript` — Shared database for teams and AI agents: store, query, and update structured records over MCP.  
+  `database` `postgres` `structured-data` `collaboration`
 - **[MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server)** `Official` `TypeScript` — Query and manage MongoDB databases and collections from AI clients.  
   `mongodb` `nosql` `documents`
 - **[MotherDuck MCP Server](https://github.com/motherduckdb/mcp-server-motherduck)** `Official` `Python` — Run analytical SQL queries against local DuckDB files and MotherDuck cloud databases.  
