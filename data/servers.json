@@ -3658,6 +3658,21 @@
     "official": true
   },
   {
+    "name": "crawlbrulee mcp server",
+    "url": "https://github.com/crawlbrulee/crawlbrulee-mcp",
+    "description": "Scrape any page into clean markdown, screenshots, metadata and links, or map a site's urls, with an EU-hosted web scraping api.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "crawlbrulee",
+    "tags": [
+      "scraping",
+      "markdown",
+      "screenshots",
+      "eu"
+    ],
+    "official": true
+  },
+  {
     "name": "eCourts India MCP",
     "url": "https://mcp.ecourtsindia.com/",
     "description": "Third-party hosted MCP for Indian court data, including Supreme Court, High Courts, district courts, and tribunals.",
