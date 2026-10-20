@@ -5932,5 +5932,21 @@
     "endpoints": {
       "streamableHttp": "https://openpath.sh/mcp/search"
     }
+  },
+  {
+    "name": "Rolês em SP",
+    "url": "https://rolesemsp.com.br/connect.md",
+    "description": "Curated São Paulo outings and cultural event discovery via remote Streamable HTTP MCP server.",
+    "category": "data-analytics-and-bi",
+    "language": "Remote",
+    "provider": "Rolês em SP",
+    "tags": [
+      "travel",
+      "events",
+      "sao-paulo",
+      "remote",
+      "streamable-http"
+    ],
+    "official": true
   }
 ]
