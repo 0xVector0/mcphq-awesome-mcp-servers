@@ -984,6 +984,21 @@
     "official": false
   },
   {
+    "name": "Koru MCP Server",
+    "url": "https://github.com/koruworks/mono",
+    "description": "Search and read documents and files, and create and edit documents, in the local database of the Koru notes, docs and files app.",
+    "category": "filesystems-and-documents",
+    "language": "Rust",
+    "provider": "Koru Works",
+    "tags": [
+      "notes",
+      "documents",
+      "local-first",
+      "local"
+    ],
+    "official": true
+  },
+  {
     "name": "Baizhi Cloud Agent Toolkit",
     "url": "https://github.com/chaitin/baizhi-agent-toolkit",
     "description": "Hosted web search, page reading and structured extraction over Streamable HTTP; the hosted backend source is closed, this repository contains MIT configs, docs and tests, and access needs your own API key and may consume credits.",
