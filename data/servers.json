@@ -1216,6 +1216,23 @@
     }
   },
   {
+    "name": "gpu.nz GPU Cloud",
+    "url": "https://gpu.nz/en/docs/mcp",
+    "description": "Find live cloud GPU offers, estimate model VRAM needs, and launch, stop, or delete per-minute GPU servers on gpu.nz.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "gpu.nz",
+    "tags": [
+      "gpu",
+      "cloud",
+      "ai-infrastructure"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://gpu.nz/mcp"
+    }
+  },
+  {
     "name": "Vercel MCP Server",
     "url": "https://vercel.com/docs/agent-resources/vercel-mcp",
     "description": "Deploy and manage Vercel projects and deployments from AI clients.",
