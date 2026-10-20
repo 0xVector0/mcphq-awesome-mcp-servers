@@ -4375,6 +4375,21 @@
     }
   },
   {
+    "name": "Vibe Monitor",
+    "url": "https://github.com/tubban1/vibe-monitor",
+    "description": "Local architecture checkpoints for AI coding agents; read-only source analysis and practical advice (Node 22+; default-on pseudonymous telemetry, required for Free analysis).",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "JavaScript",
+    "provider": "Vibe Monitor",
+    "tags": [
+      "architecture",
+      "code-quality",
+      "ai-coding",
+      "local"
+    ],
+    "official": false
+  },
+  {
     "name": "Shopify MCP Server",
     "url": "https://github.com/GeLi2001/shopify-mcp",
     "description": "Community-maintained integration for Shopify products, orders, and store operations.",
