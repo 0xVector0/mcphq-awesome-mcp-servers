@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 365 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 374 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -137,6 +137,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Markovo](https://github.com/fisher-byte/markovo): Convert PDF, DOCX, PPTX, XLSX and authorized public HTTPS pages into clean Markdown for agent context; hosted Streamable HTTP with OAuth 2.1 plus sandboxed local stdio. (Python)
 - [Notion MCP Server](https://github.com/makenotion/notion-mcp-server): Read and write Notion pages, databases, and workspace content. (TypeScript, official)
 - [Obsidian MCP Server](https://github.com/MarkusPfundstein/mcp-obsidian): Search and read notes from local Obsidian vaults. (TypeScript)
+- [officegrep](https://github.com/Asgoresmilelong/officegrep): Full-text search inside Word, PowerPoint, Excel and PDF files, with paragraph, slide, cell and page locators, backed by a local SQLite FTS5 index. (Python)
 - [PDF MCP Server](https://github.com/jztan/pdf-mcp): Extract text and metadata from PDF documents for analysis. (Python)
 - [PDFtoMarkdown.ai](https://github.com/happywpco/pdftomarkdown-mcp): Convert local PDF, DOCX, PPTX, XLSX, image, HTML and EPUB files into structured Markdown with headings, tables and optional OCR via the PDFtoMarkdown.ai API; free pages, then pay-per-page credits. (JavaScript, official)
 - [ReadGZH](https://github.com/sweesama/readgzh): Read public WeChat Official Account articles as Markdown for AI agents over remote MCP and REST. (TypeScript)
@@ -423,6 +424,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [QRX](https://qrx.codes/developers/mcp): Creates artistic, print-ready QR codes from a prompt and a link, checks that each one decodes before returning it, and serves it through a hosted qrx.to short link. (TypeScript, official)
 - [TableJourney](https://github.com/lewismvaughan/tablejourney-mcp): Where to eat in 222 cities, signature dishes, and dates of the next edition of 1,480 food festivals, each place with the source it was checked against; hosted, no auth. (Python, official)
 - [Weather MCP Server](https://github.com/isdaniel/mcp_weather_server): Fetch current weather and forecasts from public weather APIs. (Python)
+- [Wheremind](https://wheremind.ai): Hosted maps MCP server for AI agents: live place search, place details, nearby search, geocoding, and directions, with no Maps API key to manage. (Other, official)
 
 ## Optional
 

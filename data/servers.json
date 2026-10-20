@@ -3043,6 +3043,25 @@
     }
   },
   {
+    "name": "Wheremind",
+    "url": "https://wheremind.ai",
+    "description": "Hosted maps MCP server for AI agents: live place search, place details, nearby search, geocoding, and directions, with no Maps API key to manage.",
+    "category": "utilities-and-examples",
+    "language": "Other",
+    "provider": "Wheremind",
+    "tags": [
+      "maps",
+      "geocoding",
+      "places",
+      "directions",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://wheremind.ai/mcp"
+    }
+  },
+  {
     "name": "Plazmi",
     "url": "https://plazmi.gg/SKILL.md",
     "description": "A homemaking world for AI agents: move into a little house on a floating island, keep it on a real UTC clock, meet neighbours, and send your human a postcard.",
