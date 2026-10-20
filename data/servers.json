@@ -2706,6 +2706,25 @@
     }
   },
   {
+    "name": "Rolês em SP",
+    "url": "https://rolesemsp.com.br/connect.md",
+    "description": "Curated São Paulo cultural outing discovery through a hosted MCP endpoint requiring OAuth.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Rolês em SP",
+    "tags": [
+      "travel",
+      "events",
+      "sao-paulo",
+      "remote",
+      "streamable-http"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://rolesemsp.com.br/mcp"
+    }
+  },
+  {
     "name": "Chain.Love MCP",
     "url": "https://github.com/Chain-Love/chain.love-mcp",
     "description": "Hosted MCP gateway for searching and comparing Web3 infrastructure services, such as RPC, indexing, and oracle providers, by blockchain network.",
@@ -5932,21 +5951,5 @@
     "endpoints": {
       "streamableHttp": "https://openpath.sh/mcp/search"
     }
-  },
-  {
-    "name": "Rolês em SP",
-    "url": "https://rolesemsp.com.br/connect.md",
-    "description": "Curated São Paulo outings and cultural event discovery via remote Streamable HTTP MCP server.",
-    "category": "data-analytics-and-bi",
-    "language": "Remote",
-    "provider": "Rolês em SP",
-    "tags": [
-      "travel",
-      "events",
-      "sao-paulo",
-      "remote",
-      "streamable-http"
-    ],
-    "official": true
   }
 ]
