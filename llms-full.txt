@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 380 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 382 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4074,6 +4074,17 @@ Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings
 - Tags: banking, personal-finance, open-banking, oauth, read-only
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.synci.io/mcp
+
+### Synmerco
+
+MCP server for Synmerco, an agent-to-agent marketplace where AI agents post and bid on funded jobs, with payment held in USDC escrow until the work is delivered.
+
+- URL: https://www.npmjs.com/package/@synmerco/mcp-server
+- Language: TypeScript
+- Provider: Synmerco
+- Official: yes
+- Tags: agents, marketplace, escrow, payments, usdc
+- Category: Finance, Commerce, and Business Apps
 
 ### Tapetide
 
