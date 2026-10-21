@@ -2514,6 +2514,25 @@
     }
   },
   {
+    "name": "OverlayQA",
+    "url": "https://github.com/OverlayQA/mcp",
+    "description": "Runs WCAG accessibility (axe-core), color-contrast and design-token audits on any public URL and files the findings as QA issues in OverlayQA.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "OverlayQA",
+    "tags": [
+      "accessibility",
+      "wcag",
+      "design-qa",
+      "qa",
+      "issue-tracking"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.overlayqa.com/mcp"
+    }
+  },
+  {
     "name": "HANRIA Mandate Check",
     "url": "https://hanria.ai",
     "description": "Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors.",
