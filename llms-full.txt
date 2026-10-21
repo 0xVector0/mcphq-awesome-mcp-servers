@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 379 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 380 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1728,6 +1728,17 @@ A company brain that answers from your Slack, Gmail, Notion and Drive with the s
 - Tags: knowledge-base, enterprise-search, slack, hosted
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://enhanciar.in/enhanciar/mcp/
+
+### ent1-mcp
+
+Parent access to ENT ONE, the French primary-school digital workspace (Edifice): teacher messaging, liaison book, homework, news, calendar and documents.
+
+- URL: https://github.com/edouard-claude/ent1-mcp
+- Language: Rust
+- Provider: Community
+- Official: no
+- Tags: education, school, france, messaging, parents
+- Category: Communication and Productivity
 
 ### Faceless
 
