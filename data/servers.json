@@ -2753,6 +2753,22 @@
     }
   },
   {
+    "name": "Synmerco",
+    "url": "https://www.npmjs.com/package/@synmerco/mcp-server",
+    "description": "MCP server for Synmerco, an agent-to-agent marketplace where AI agents post and bid on funded jobs, with payment held in USDC escrow until the work is delivered.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Synmerco",
+    "tags": [
+      "agents",
+      "marketplace",
+      "escrow",
+      "payments",
+      "usdc"
+    ],
+    "official": true
+  },
+  {
     "name": "Invompt",
     "url": "https://mcp.invompt.com/mcp",
     "description": "Turn AI-host work into invoices you review before send — Continue as guest or OAuth via hosted MCP. Site https://www.invompt.com",
