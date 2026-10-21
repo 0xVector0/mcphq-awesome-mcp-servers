@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 380 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 382 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3719,6 +3719,18 @@ Live Google Hotels and Vacation Rentals search with per-OTA nightly rates (Booki
 - Official: no
 - Tags: hotels, travel, pricing, apify
 - Category: Finance, Commerce, and Business Apps
+
+### Grey Ridge x402 Market & DeFi Data
+
+Keyless Base market data for agents: live DeFi yields, perp funding rates, crypto spot prices, Polymarket odds and a pre-trade token-safety gate. Free preview tools; paid calls settle per request in USDC via x402, no key or account.
+
+- URL: https://github.com/rezearcher/x402-data-api
+- Language: TypeScript
+- Provider: Grey Ridge Signals
+- Official: no
+- Tags: x402, base, defi, crypto, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://x402-data-api.sigrunner.workers.dev/mcp
 
 ### HubSpot MCP Server
 
