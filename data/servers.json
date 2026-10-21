@@ -3500,6 +3500,25 @@
     }
   },
   {
+    "name": "NPMScan",
+    "url": "https://npmscan.com/docs/mcp",
+    "description": "Checks npm packages for malware, known vulnerabilities, typosquats, maintainer takeovers and risky install scripts, and audits lockfiles and SBOMs.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "NPMScan",
+    "tags": [
+      "npm",
+      "supply-chain",
+      "vulnerabilities",
+      "malware",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://npmscan.com/api/mcp"
+    }
+  },
+  {
     "name": "MEDIAPRONET",
     "url": "https://mediapronet.com/mcp",
     "description": "Read-only MCP server for the MEDIAPRONET directory: search 249 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.",
