@@ -2009,6 +2009,21 @@
     }
   },
   {
+    "name": "Eigenheim Berlin Market Data",
+    "url": "https://github.com/magicSEO/eigenheim-mcp",
+    "description": "Hosted, no-key, read-only MCP for Berlin real estate data: prices per m², rental yield, official land values, forecasts and listings.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Eigenheim & Invest",
+    "tags": [
+      "real-estate",
+      "berlin",
+      "market-data",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "Equibles",
     "url": "https://equibles.com/mcp",
     "description": "Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access.",
