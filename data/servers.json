@@ -3394,6 +3394,22 @@
     "official": true
   },
   {
+    "name": "helloasso-mcp",
+    "url": "https://github.com/edouard-claude/helloasso-mcp",
+    "description": "HelloAsso for French associations: members, event tickets, donations, payments, refunds and checkout links, covering all 36 routes of the v5 API.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Rust",
+    "provider": "Community",
+    "tags": [
+      "payments",
+      "nonprofit",
+      "donations",
+      "france",
+      "ticketing"
+    ],
+    "official": false
+  },
+  {
     "name": "MCP Server Templates",
     "url": "https://github.com/Data-Everything/mcp-server-templates",
     "description": "Unified MCP platform connecting many apps behind one interface.",
