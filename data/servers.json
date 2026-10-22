@@ -3268,6 +3268,25 @@
     }
   },
   {
+    "name": "deed.page",
+    "url": "https://deed.page/docs",
+    "description": "Publishes HTML or a static folder to a permanent HTTPS URL with no account; update, version, restore and delete sites through a remote MCP server.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "deed.page",
+    "tags": [
+      "hosting",
+      "static-sites",
+      "deploy",
+      "publish",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://deed.page/mcp"
+    }
+  },
+  {
     "name": "MCP Ads",
     "url": "https://mcp-ads.com",
     "description": "Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager: reports, audits and campaign edits (new campaigns start paused), over Streamable HTTP with OAuth.",
