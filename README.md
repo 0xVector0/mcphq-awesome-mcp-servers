@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-374-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-382-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,15 +44,15 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (15)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (44)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (33)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (35)
 - [Filesystems and Documents](#filesystems-and-documents) (14)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (20)
 - [Communication and Productivity](#communication-and-productivity) (45)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (44)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (48)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (39)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (18)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (70)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (72)
 - [Utilities and Examples](#utilities-and-examples) (17)
 
 <a id="official-and-reference"></a>
@@ -252,6 +252,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `chrome` `devtools` `debugging`
 - **[Cluefinch MCP](https://github.com/cluefinch/mcp-server)** `Official` `Python` — Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection.  
   `deep-research` `web-search` `research` `ai-agents` `local-first`
+- **[CodeTrendy](https://codetrendy.com/mcp)** `Official` `TypeScript` — Read-only MCP server for the CodeTrendy startup discovery directory: search 682 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.  
+  `search` `directory` `startups` `remote`
 - **[ContHunt](https://github.com/Synthenova/conthunt-mcp)** `Official` `Other` — Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts.  
   `social` `content` `research` `tiktok`
 - **[CurlShot](https://curlshot.com/docs)** `Official` `TypeScript` — Hosted screenshot API over remote MCP: renders any public URL as PNG, JPEG, WebP, PDF or a scrolling video, full page or at a device preset. API key as Bearer token; free plan 100 screenshots/month, no card.  
@@ -266,6 +268,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `domains` `seo` `expired-domains` `whois`
 - **[looot](https://github.com/loootai/looot-mcp)** `Official` `TypeScript` — Hosted remote MCP server to search, price and run 2,500+ data API endpoints from 90+ providers with one key and a prepaid balance.  
   `data` `enrichment` `search` `api-gateway`
+- **[MEDIAPRONET](https://mediapronet.com/mcp)** `Official` `TypeScript` — Read-only MCP server for the MEDIAPRONET directory: search 249 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.  
+  `search` `directory` `startups` `remote`
 - **[Playwright MCP](https://github.com/microsoft/playwright-mcp)** `Official` `TypeScript` — Official Microsoft Playwright server for browser automation via accessibility snapshots.  
   `browser` `playwright` `automation`
 - **[Puppeteer MCP Server](https://github.com/merajmehrabi/puppeteer-mcp-server)** `TypeScript` — Headless Chrome automation using Puppeteer for scraping and testing.  
@@ -516,8 +520,12 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `agents` `memory` `remote` `oauth`
 - **[LlamaParse MCP Server](https://developers.llamaindex.ai/for-agents/)** `Official` `Other` — Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs.  
   `rag` `indexing` `agents`
+- **[LLMSlim](https://github.com/Thanatos9404/llmslim)** `Python` — Local stdio MCP server that stores agent messages word for word in SQLite or Postgres and recalls the ones that answer a question within a token budget, with no LLM call.  
+  `memory` `long-term-memory` `sqlite` `local`
 - **[Magic Hour MCP Server](https://magichour.ai)** `Official` `Python` — Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing.  
   `ai-video` `image-generation` `audio-generation` `media-editing` `remote`
+- **[MELRA](https://github.com/XAGI-Lab/melra)** `Official` `TypeScript` — Local MCP runtime for agent tool calls that rechecks policy and scoped approvals, verifies declared outcomes, records redacted receipts, and parks interrupted writes for reconciliation.  
+  `agents` `mcp` `policy` `approvals` `recovery`
 - **[mem0 MCP Server](https://docs.mem0.ai/platform/mem0-mcp)** `Official` `Other` — Hosted persistent memory layer for personalized agent interactions.  
   `memory` `personalization` `agents`
 - **[MuAPI MCP Server](https://muapi.ai/docs/mcp)** `Official` `Other` — Connect AI clients to MuAPI image, video, and audio generation through a hosted Streamable HTTP MCP endpoint.  
@@ -554,6 +562,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `decision-memory` `coding-agents` `sqlite` `local-first`
 - **[SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp)** `JavaScript` — AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.  
   `token-efficiency` `leaderboard` `ai-agents` `telemetry` `yield-cascade`
+- **[sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)** `Python` — Local stdio MCP server that gives an agent recall over its own markdown notes: vector retrieval for entry points, hand-written wikilinks as the graph, cross-encoder rerank, in one SQLite file.  
+  `memory` `rag` `obsidian` `sqlite` `knowledge-graph`
 - **[Sqwakie](https://github.com/alexcarney460-hue/walkie)** `Official` `TypeScript` — Lets AI coding agents on different machines message each other through MCP tools (walkie_post, walkie_read, walkie_reply, walkie_ask, walkie_inbox), with a shared live dashboard and project kanban boards.  
   `multi-agent` `claude-code` `codex` `kanban` `agent-messaging`
 - **[Takibi Base](https://takibibase.com/docs/connector)** `Official` `Other` — Ask your Takibi Base collections anything; get answers with cited passages and a support score.  
@@ -562,6 +572,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `video` `images` `audio` `marketing`
 - **[Zep MCP Server](https://github.com/jaysack/zep-mcp)** `Python` — Community MCP wrapper for long-term memory and context retrieval with Zep.  
   `memory` `context` `rag`
+- **[Zerouter MCP](https://github.com/ZerouterAI/zerouter-mcp)** `Official` `TypeScript` — AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi via Zerouter, an OpenAI-compatible API, to chat, compare models side by side, and look up API pricing.  
+  `ai-gateway` `llm` `claude` `openai` `pricing`
 
 <a id="data-analytics-and-bi"></a>
 
@@ -712,6 +724,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
 
 Payments, banking, CRM, e-commerce, and business system integrations.
 
+- **[3Descu 3D Printing Quotes (EU)](https://quote.3descu.com/ai-agents/)** `Official` `TypeScript` — Instant FDM and SLA 3D printing quotes from an ISO 9001:2015 certified EU factory: list materials, measure an STL or OBJ link and get a price in EUR.  
+  `3d-printing` `manufacturing` `quotes` `remote`
 - **[Account Executive Jobs](https://github.com/854Labs/account-executive-jobs)** `Official` `Other` — Hosted OAuth MCP server to search and apply to account executive and sales jobs, and for employers to manage job posts and applicants.  
   `jobs` `sales` `recruiting` `oauth` `remote`
 - **[ADEXTO](https://github.com/0xcuy/adexto)** `Official` `TypeScript` — Bonding-curve token markets on Monad, Arbitrum One, Base, Robinhood Chain and 0G: list and price markets, buy with USDC on Base over x402, and prepare launch, stake and claim transactions for your own key.  
@@ -844,6 +858,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `travel` `tours` `kamchatka` `booking` `remote`
 - **[Voidpay Marketplace MCP](https://github.com/voidly-ai/pay-mcp)** `Official` `TypeScript` — Find services and storefronts on Voidly's hosted marketplace for AI-agent services and prepare checkout links that the owner reviews and approves in their own browser; the connector never signs, pays or holds keys.  
   `marketplace` `agent-payments` `checkout` `commerce` `remote`
+- **[Warden MCP](https://github.com/warden-protocol/warden-mcp)** `Official` `Other` — Remote MCP server for Warden Token Terminal: AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within user-set limits.  
+  `crypto` `trading` `defi` `onchain` `ai-agents`
 - **[Whimbrel MedTech Analyst](https://github.com/WhimbrelResearch/whimbrel-mcp)** `Official` `JavaScript` — Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source.  
   `medtech` `fda` `company-research` `oauth` `remote`
 - **[Worklittle Jobs](https://github.com/worklittle/jobs-mcp)** `Other` — Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.  

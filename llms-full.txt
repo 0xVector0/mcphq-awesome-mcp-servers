@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 374 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 382 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -974,6 +974,18 @@ Local-first MCP server for AI-agent web research with search, incremental page r
 - Tags: deep-research, web-search, research, ai-agents, local-first
 - Category: Browsers, Search, and Web Automation
 
+### CodeTrendy
+
+Read-only MCP server for the CodeTrendy startup discovery directory: search 682 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.
+
+- URL: https://codetrendy.com/mcp
+- Language: TypeScript
+- Provider: CodeTrendy
+- Official: yes
+- Tags: search, directory, startups, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://codetrendy.com/api/mcp
+
 ### ContHunt
 
 Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts.
@@ -1055,6 +1067,18 @@ Hosted remote MCP server to search, price and run 2,500+ data API endpoints from
 - Tags: data, enrichment, search, api-gateway
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://api.looot.ai/mcp
+
+### MEDIAPRONET
+
+Read-only MCP server for the MEDIAPRONET directory: search 249 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.
+
+- URL: https://mediapronet.com/mcp
+- Language: TypeScript
+- Provider: MEDIAPRONET
+- Official: yes
+- Tags: search, directory, startups, remote
+- Category: Browsers, Search, and Web Automation
+- Streamable HTTP endpoint: https://mediapronet.com/api/mcp
 
 ### Playwright MCP
 
@@ -2346,6 +2370,17 @@ Hosted MCP server for LlamaParse document parsing and LlamaIndex platform APIs.
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://mcp.llamaindex.ai/mcp
 
+### LLMSlim
+
+Local stdio MCP server that stores agent messages word for word in SQLite or Postgres and recalls the ones that answer a question within a token budget, with no LLM call.
+
+- URL: https://github.com/Thanatos9404/llmslim
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: memory, long-term-memory, sqlite, local
+- Category: AI, Agents, and Memory
+
 ### Magic Hour MCP Server
 
 Official hosted MCP server with 44 tools for AI video, image, and audio generation and editing.
@@ -2357,6 +2392,17 @@ Official hosted MCP server with 44 tools for AI video, image, and audio generati
 - Tags: ai-video, image-generation, audio-generation, media-editing, remote
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://mcp.magichour.ai/
+
+### MELRA
+
+Local MCP runtime for agent tool calls that rechecks policy and scoped approvals, verifies declared outcomes, records redacted receipts, and parks interrupted writes for reconciliation.
+
+- URL: https://github.com/XAGI-Lab/melra
+- Language: TypeScript
+- Provider: XAGI Labs
+- Official: yes
+- Tags: agents, mcp, policy, approvals, recovery
+- Category: AI, Agents, and Memory
 
 ### mem0 MCP Server
 
@@ -2562,6 +2608,17 @@ AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for a
 - Tags: token-efficiency, leaderboard, ai-agents, telemetry, yield-cascade
 - Category: AI, Agents, and Memory
 
+### sqlite-graph-memory
+
+Local stdio MCP server that gives an agent recall over its own markdown notes: vector retrieval for entry points, hand-written wikilinks as the graph, cross-encoder rerank, in one SQLite file.
+
+- URL: https://github.com/tonydzi/sqlite-graph-memory
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: memory, rag, obsidian, sqlite, knowledge-graph
+- Category: AI, Agents, and Memory
+
 ### Sqwakie
 
 Lets AI coding agents on different machines message each other through MCP tools (walkie_post, walkie_read, walkie_reply, walkie_ask, walkie_inbox), with a shared live dashboard and project kanban boards.
@@ -2606,6 +2663,17 @@ Community MCP wrapper for long-term memory and context retrieval with Zep.
 - Provider: Community
 - Official: no
 - Tags: memory, context, rag
+- Category: AI, Agents, and Memory
+
+### Zerouter MCP
+
+AI API gateway MCP for Claude, GPT, Gemini, Grok and Kimi via Zerouter, an OpenAI-compatible API, to chat, compare models side by side, and look up API pricing.
+
+- URL: https://github.com/ZerouterAI/zerouter-mcp
+- Language: TypeScript
+- Provider: Zerouter
+- Official: yes
+- Tags: ai-gateway, llm, claude, openai, pricing
 - Category: AI, Agents, and Memory
 
 ## Data, Analytics, and BI
@@ -3329,6 +3397,18 @@ Cloud security posture management and risk insights from Wiz.
 ## Finance, Commerce, and Business Apps
 
 Payments, banking, CRM, e-commerce, and business system integrations.
+
+### 3Descu 3D Printing Quotes (EU)
+
+Instant FDM and SLA 3D printing quotes from an ISO 9001:2015 certified EU factory: list materials, measure an STL or OBJ link and get a price in EUR.
+
+- URL: https://quote.3descu.com/ai-agents/
+- Language: TypeScript
+- Provider: 3Descu
+- Official: yes
+- Tags: 3d-printing, manufacturing, quotes, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://zzamnvhadwibvafqcfpd.supabase.co/functions/v1/mcp
 
 ### Account Executive Jobs
 
@@ -4099,6 +4179,18 @@ Find services and storefronts on Voidly's hosted marketplace for AI-agent servic
 - Tags: marketplace, agent-payments, checkout, commerce, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.voidly.ai/mcp/voidpay
+
+### Warden MCP
+
+Remote MCP server for Warden Token Terminal: AI agents find tokens, quote swaps and trade onchain on Base, BNB Chain, Robinhood Chain and Arc within user-set limits.
+
+- URL: https://github.com/warden-protocol/warden-mcp
+- Language: Other
+- Provider: Warden Protocol
+- Official: yes
+- Tags: crypto, trading, defi, onchain, ai-agents
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://tokens.wardenprotocol.org/mcp
 
 ### Whimbrel MedTech Analyst
 
