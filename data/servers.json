@@ -1746,6 +1746,25 @@
     "official": true
   },
   {
+    "name": "datawebot",
+    "url": "https://github.com/datawebot/datawebot-mcp",
+    "description": "Hosted product search and seller prices across online shops worldwide, plus extraction jobs for Amazon and Shopify pages, over remote Streamable HTTP with OAuth or an API key.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "datawebot",
+    "tags": [
+      "ecommerce",
+      "product-search",
+      "prices",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.datawebot.com/mcp"
+    }
+  },
+  {
     "name": "day3",
     "url": "https://docs.day3.app/mcp",
     "description": "Official remote server for the day3 email platform: read account context, draft, edit, preview and test-send newsletter campaigns, and enroll contacts in automations; audience sends need an extra API key scope.",
