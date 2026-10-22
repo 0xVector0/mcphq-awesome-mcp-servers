@@ -3505,6 +3505,18 @@ Payments held between two agents: the buyer pays by x402 or MPP, the seller prov
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://agpay.shveik.dev/mcp
 
+### APISign
+
+Hosted MCP server for legally binding e-signature: create contracts from Markdown templates or .docx, email them to signers, track views and signatures, and get signed PDFs with a SHA-256 seal and audit trail.
+
+- URL: https://apisign.io/docs/api/mcp
+- Language: TypeScript
+- Provider: APISign
+- Official: yes
+- Tags: e-signature, contracts, documents, remote, api-key
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://apisign.io/mcp
+
 ### Ariadne for Therapists
 
 Audit a therapy practice's Google Business Profile and website with prioritized fixes, and write a sample Google Business post in the therapist's voice; never recommends soliciting client reviews.
