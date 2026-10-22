@@ -2609,6 +2609,17 @@ Local SQLite decision memory for coding agents to save and retrieve rationale, r
 - Tags: decision-memory, coding-agents, sqlite, local-first
 - Category: AI, Agents, and Memory
 
+### ShortSmash
+
+MCP server + CLI that turns a prompt into a published short video: AI script, 50-language dubbing, karaoke captions, 10 publishing platforms.
+
+- URL: https://github.com/hydope/shortsmash
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: video, content-creation, agents, publishing
+- Category: AI, Agents, and Memory
+
 ### SigRank MCP
 
 AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.
