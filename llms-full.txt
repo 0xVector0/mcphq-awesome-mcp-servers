@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 380 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 382 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -950,6 +950,17 @@ Control and inspect Chrome through DevTools protocol for debugging and automatio
 - Provider: Google
 - Official: yes
 - Tags: chrome, devtools, debugging
+- Category: Browsers, Search, and Web Automation
+
+### CloakBrowser MCP
+
+Runs upstream Playwright MCP with CloakBrowser Chromium, preserving its browser tools and adding bridge diagnostics.
+
+- URL: https://github.com/swimmwatch/cloakbrowser-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: browser-automation, playwright, chromium, stdio
 - Category: Browsers, Search, and Web Automation
 
 ### Cluefinch MCP

@@ -3030,6 +3030,21 @@
     "official": false
   },
   {
+    "name": "CloakBrowser MCP",
+    "url": "https://github.com/swimmwatch/cloakbrowser-mcp",
+    "description": "Runs upstream Playwright MCP with CloakBrowser Chromium, preserving its browser tools and adding bridge diagnostics.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "browser-automation",
+      "playwright",
+      "chromium",
+      "stdio"
+    ],
+    "official": false
+  },
+  {
     "name": "Lodestar Stamp",
     "url": "https://lodestarstamp.com",
     "description": "Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.",
