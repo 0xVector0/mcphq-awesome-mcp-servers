@@ -2700,6 +2700,24 @@
     }
   },
   {
+    "name": "Dexra",
+    "url": "https://github.com/dexra-dev/mcp",
+    "description": "Read-only risk verdicts (ok, caution or avoid, with reasons) for Solana launches, tokens, wallets, pools and planned swaps, via an API key with a free daily allowance or keyless x402 pay-per-call in USDC.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Dexra",
+    "tags": [
+      "solana",
+      "crypto",
+      "risk",
+      "x402"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.dexra.dev/mcp"
+    }
+  },
+  {
     "name": "INAM Protocol",
     "url": "https://github.com/inamprotocol/inam-protocol/tree/main/mcp",
     "description": "Look up an AI agent's reputation built only from work both parties signed, and check its x402 payTo wallet before paying it; draft and countersign Execution Receipts.",
