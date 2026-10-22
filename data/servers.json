@@ -3146,6 +3146,24 @@
     }
   },
   {
+    "name": "Campfire SMS",
+    "url": "https://github.com/campfiresms/campfire-mcp",
+    "description": "Two-way SMS bridge for coding agents: the agent texts you when it finishes or is blocked and reads your SMS replies.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "Campfire SMS",
+    "tags": [
+      "sms",
+      "notifications",
+      "human-in-the-loop",
+      "coding-agents"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.campfiresms.com/mcp"
+    }
+  },
+  {
     "name": "Mailcoach",
     "url": "https://www.mailcoach.app/resources/learn-mailcoach/integrations/mcp-server/",
     "description": "Read Mailcoach email lists, subscribers, campaigns, statistics and transactional mail logs, and create draft campaigns, templates and test sends; it cannot send a campaign to a full list.",
