@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-382-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-386-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,15 +44,15 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (15)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (44)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (35)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (36)
 - [Filesystems and Documents](#filesystems-and-documents) (14)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (20)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (21)
 - [Communication and Productivity](#communication-and-productivity) (45)
-- [AI, Agents, and Memory](#ai-agents-and-memory) (48)
+- [AI, Agents, and Memory](#ai-agents-and-memory) (49)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (39)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (18)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (72)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (73)
 - [Utilities and Examples](#utilities-and-examples) (17)
 
 <a id="official-and-reference"></a>
@@ -250,6 +250,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `browser` `cloud` `automation`
 - **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `Official` `TypeScript` — Control and inspect Chrome through DevTools protocol for debugging and automation.  
   `chrome` `devtools` `debugging`
+- **[CloakBrowser MCP](https://github.com/swimmwatch/cloakbrowser-mcp)** `TypeScript` — Runs upstream Playwright MCP with CloakBrowser Chromium, preserving its browser tools and adding bridge diagnostics.  
+  `browser-automation` `playwright` `chromium` `stdio`
 - **[Cluefinch MCP](https://github.com/cluefinch/mcp-server)** `Official` `Python` — Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection.  
   `deep-research` `web-search` `research` `ai-agents` `local-first`
 - **[CodeTrendy](https://codetrendy.com/mcp)** `Official` `TypeScript` — Read-only MCP server for the CodeTrendy startup discovery directory: search 682 listed websites, SaaS and AI tools, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.  
@@ -348,6 +350,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `aws` `finops` `terraform` `cloudformation` `read-only`
 - **[Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare)** `Official` `TypeScript` — Manage Workers, KV, R2, and Cloudflare platform resources.  
   `cloudflare` `edge` `workers`
+- **[deed.page](https://deed.page/docs)** `Official` `TypeScript` — Publishes HTML or a static folder to a permanent HTTPS URL with no account; update, version, restore and delete sites through a remote MCP server.  
+  `hosting` `static-sites` `deploy` `publish` `remote`
 - **[DropTheHassle](https://github.com/bosmdavid-gif/dropthehassle-mcp)** `Official` `JavaScript` — Publishes a site on a free HTTPS link (no account to start) or a .com (€19/$19) that goes live with no DNS after the human pays. Also Edit files, Restore, Collect leads (form messages to your mailbox), a site password and Hide from Google.  
   `hosting` `deployment` `domains` `https` `remote`
 - **[Duplicacy MCP Server](https://github.com/GeiserX/duplicacy-mcp)** `Go` — Reads Duplicacy backup metrics from a duplicacy-exporter Prometheus endpoint: backup status, history, snapshots and prune status.  
@@ -560,6 +564,8 @@ LLM bridges, agent orchestration, RAG, and persistent memory layers.
   `memory` `screen` `audio` `local-first`
 - **[Selvedge](https://github.com/masondelan/selvedge)** `Python` — Local SQLite decision memory for coding agents to save and retrieve rationale, rejected approaches, and entity history.  
   `decision-memory` `coding-agents` `sqlite` `local-first`
+- **[ShortSmash](https://github.com/hydope/shortsmash)** `Python` — MCP server + CLI that turns a prompt into a published short video: AI script, 50-language dubbing, karaoke captions, 10 publishing platforms.  
+  `video` `content-creation` `agents` `publishing`
 - **[SigRank MCP](https://github.com/SunrisesIllNeverSee/sigrank-mcp)** `JavaScript` — AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.  
   `token-efficiency` `leaderboard` `ai-agents` `telemetry` `yield-cascade`
 - **[sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory)** `Python` — Local stdio MCP server that gives an agent recall over its own markdown notes: vector retrieval for entry points, hand-written wikilinks as the graph, cross-encoder rerank, in one SQLite file.  
@@ -738,6 +744,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `due-diligence` `sanctions` `x402` `stablecoins` `remote`
 - **[agpay](https://agpay.shveik.dev)** `Official` `Go` — Payments held between two agents: the buyer pays by x402 or MPP, the seller proves its wallet and delivers, the buyer confirms and the seller is paid; disputes are decided by hand. Paid in stablecoins, no account.  
   `payments` `x402` `stablecoins` `remote`
+- **[APISign](https://apisign.io/docs/api/mcp)** `Official` `TypeScript` — Hosted MCP server for legally binding e-signature: create contracts from Markdown templates or .docx, email them to signers, track views and signatures, and get signed PDFs with a SHA-256 seal and audit trail.  
+  `e-signature` `contracts` `documents` `remote` `api-key`
 - **[Ariadne for Therapists](https://github.com/bgrieco22/ariadne-mcp)** `Official` `TypeScript` — Audit a therapy practice's Google Business Profile and website with prioritized fixes, and write a sample Google Business post in the therapist's voice; never recommends soliciting client reviews.  
   `marketing` `local-seo` `google-business-profile` `therapists`
 - **[Astral Twin](https://astraldaily.com)** `Official` `Other` — Create and mint NFT asset packs on the Base blockchain from AI clients.  
