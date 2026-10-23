@@ -1496,13 +1496,13 @@ Manage Fly.io apps, machines, and deployments via MCP.
 - Tags: fly, deploy, edge
 - Category: Cloud and Infrastructure
 
-### Mountable
+### mountable.io
 
-Manage persistent agent filesystems, issue mount tickets and revoke mount sessions through a local stdio server for the paid Mountable service.
+Manage persistent agent filesystems, issue mount tickets and revoke mount sessions through a local stdio server for the paid mountable.io service.
 
 - URL: https://github.com/writeitai/mountable
 - Language: Go
-- Provider: Mountable
+- Provider: mountable.io
 - Official: yes
 - Tags: filesystem, storage, stdio
 - Category: Cloud and Infrastructure

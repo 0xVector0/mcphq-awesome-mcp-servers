@@ -3179,12 +3179,12 @@
     }
   },
   {
-    "name": "Mountable",
+    "name": "mountable.io",
     "url": "https://github.com/writeitai/mountable",
-    "description": "Manage persistent agent filesystems, issue mount tickets and revoke mount sessions through a local stdio server for the paid Mountable service.",
+    "description": "Manage persistent agent filesystems, issue mount tickets and revoke mount sessions through a local stdio server for the paid mountable.io service.",
     "category": "cloud-and-infrastructure",
     "language": "Go",
-    "provider": "Mountable",
+    "provider": "mountable.io",
     "tags": [
       "filesystem",
       "storage",
