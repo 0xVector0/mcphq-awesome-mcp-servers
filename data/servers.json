@@ -2495,6 +2495,25 @@
     "official": true
   },
   {
+    "name": "Growo child growth",
+    "url": "https://usegrowo.com/mcp",
+    "description": "Child growth reference tools for AI assistants: WHO and CDC percentiles, BMI-for-age, birth size for gestational age, corrected age and mid-parental height. Read-only and no auth; results carry no interpretation.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Growo",
+    "tags": [
+      "health",
+      "pediatrics",
+      "growth-charts",
+      "remote",
+      "read-only"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.usegrowo.com/"
+    }
+  },
+  {
     "name": "GSCmate",
     "url": "https://gscmate.com",
     "description": "Read-only access to Google Search Console properties, Search Analytics, sitemaps, and URL inspection through user-authorized OAuth 2.1.",
