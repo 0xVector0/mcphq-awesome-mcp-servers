@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 383 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 386 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1494,6 +1494,17 @@ Manage Fly.io apps, machines, and deployments via MCP.
 - Provider: Fly.io
 - Official: yes
 - Tags: fly, deploy, edge
+- Category: Cloud and Infrastructure
+
+### Mountable
+
+Manage persistent agent filesystems, issue mount tickets and revoke mount sessions through a local stdio server for the paid Mountable service.
+
+- URL: https://github.com/writeitai/mountable
+- Language: Go
+- Provider: Mountable
+- Official: yes
+- Tags: filesystem, storage, stdio
 - Category: Cloud and Infrastructure
 
 ### Network Sketcher

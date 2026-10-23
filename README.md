@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-383-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-386-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,13 +46,13 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (43)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (36)
 - [Filesystems and Documents](#filesystems-and-documents) (14)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (21)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (22)
 - [Communication and Productivity](#communication-and-productivity) (45)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (49)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (39)
 - [Legal and Court Data](#legal-and-court-data) (4)
 - [Security and Identity](#security-and-identity) (18)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (72)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (73)
 - [Utilities and Examples](#utilities-and-examples) (17)
 
 <a id="official-and-reference"></a>
@@ -356,6 +356,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `duplicacy` `backup` `prometheus`
 - **[Fly.io MCP Server](https://github.com/superfly/flymcp)** `Official` `TypeScript` — Manage Fly.io apps, machines, and deployments via MCP.  
   `fly` `deploy` `edge`
+- **[Mountable](https://github.com/writeitai/mountable)** `Official` `Go` — Manage persistent agent filesystems, issue mount tickets and revoke mount sessions through a local stdio server for the paid Mountable service.  
+  `filesystem` `storage` `stdio`
 - **[Network Sketcher](https://github.com/cisco-open/network-sketcher)** `Python` — Local-first MCP server for AI-driven network design, L1/L2/L3 topology diagrams, device tables, and AI Context generation.  
   `networking` `diagrams` `automation` `cursor` `cisco`
 - **[Port MCP Server](https://github.com/port-labs/port-mcp-server)** `Official` `TypeScript` — Manage software catalog, scorecards, and actions in Port.io.  
