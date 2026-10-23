@@ -3312,6 +3312,19 @@
     }
   },
   {
+    "name": "Solvecha",
+    "url": "https://solvecha.com/mcp-captcha-solver",
+    "description": "Solves reCAPTCHA v2 image grids, text captchas, GeeTest sliders and FunCAPTCHA for AI agents over a hosted MCP endpoint; free tier included.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Go",
+    "provider": "Solvecha",
+    "tags": ["captcha", "recaptcha", "browser-automation", "remote"],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.solvecha.com/mcp"
+    }
+  },
+  {
     "name": "MCP Ads",
     "url": "https://mcp-ads.com",
     "description": "Read and manage Google Ads, Meta Ads, TikTok, LinkedIn and Microsoft Ads plus GA4, Search Console and Tag Manager: reports, audits and campaign edits (new campaigns start paused), over Streamable HTTP with OAuth.",
