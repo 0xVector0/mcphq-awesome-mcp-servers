@@ -5761,6 +5761,25 @@
     }
   },
   {
+    "name": "TraderWAI",
+    "url": "https://github.com/leonardo-mazzitelli/traderwai-mcp",
+    "description": "Hosted MCP server that lets AI clients read live charts, backtest rule-based strategies and place risk-sized orders on the user's own MetaTrader, cTrader, TradeLocker, Match-Trader, Binance or Bybit account; free plan.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "TraderWAI",
+    "tags": [
+      "trading",
+      "forex",
+      "crypto",
+      "backtesting",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.traderwai.com"
+    }
+  },
+  {
     "name": "TubeText E-commerce Prices: Amazon, Taobao, AliExpress, Idealo",
     "url": "https://github.com/LMSlay/tubetext-mcp/tree/main/registry/ecommerce-prices",
     "description": "Products, prices and sellers from Amazon, Taobao/Tmall, AliExpress, TikTok Shop and Idealo (EU). Hosted on Apify (OAuth), pay per result.",

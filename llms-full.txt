@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 383 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 386 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4156,6 +4156,18 @@ Read-only crypto futures market data: AI signals, top-trader positions on Hyperl
 - Tags: crypto, trading, market-data, oauth, read-only
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.traderspy.app/mcp
+
+### TraderWAI
+
+Hosted MCP server that lets AI clients read live charts, backtest rule-based strategies and place risk-sized orders on the user's own MetaTrader, cTrader, TradeLocker, Match-Trader, Binance or Bybit account; free plan.
+
+- URL: https://github.com/leonardo-mazzitelli/traderwai-mcp
+- Language: JavaScript
+- Provider: TraderWAI
+- Official: yes
+- Tags: trading, forex, crypto, backtesting, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://mcp.traderwai.com
 
 ### TubeText E-commerce Prices: Amazon, Taobao, AliExpress, Idealo
 
