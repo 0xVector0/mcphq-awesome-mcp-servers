@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 382 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 386 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -952,6 +952,17 @@ Control and inspect Chrome through DevTools protocol for debugging and automatio
 - Tags: chrome, devtools, debugging
 - Category: Browsers, Search, and Web Automation
 
+### CloakBrowser MCP
+
+Runs upstream Playwright MCP with CloakBrowser Chromium, preserving its browser tools and adding bridge diagnostics.
+
+- URL: https://github.com/swimmwatch/cloakbrowser-mcp
+- Language: TypeScript
+- Provider: Community
+- Official: no
+- Tags: browser-automation, playwright, chromium, stdio
+- Category: Browsers, Search, and Web Automation
+
 ### Cluefinch MCP
 
 Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection.
@@ -1450,6 +1461,18 @@ Manage Workers, KV, R2, and Cloudflare platform resources.
 - Official: yes
 - Tags: cloudflare, edge, workers
 - Category: Cloud and Infrastructure
+
+### deed.page
+
+Publishes HTML or a static folder to a permanent HTTPS URL with no account; update, version, restore and delete sites through a remote MCP server.
+
+- URL: https://deed.page/docs
+- Language: TypeScript
+- Provider: deed.page
+- Official: yes
+- Tags: hosting, static-sites, deploy, publish, remote
+- Category: Cloud and Infrastructure
+- Streamable HTTP endpoint: https://deed.page/mcp
 
 ### DropTheHassle
 
@@ -2598,6 +2621,17 @@ Local SQLite decision memory for coding agents to save and retrieve rationale, r
 - Tags: decision-memory, coding-agents, sqlite, local-first
 - Category: AI, Agents, and Memory
 
+### ShortSmash
+
+MCP server + CLI that turns a prompt into a published short video: AI script, 50-language dubbing, karaoke captions, 10 publishing platforms.
+
+- URL: https://github.com/hydope/shortsmash
+- Language: Python
+- Provider: Community
+- Official: no
+- Tags: video, content-creation, agents, publishing
+- Category: AI, Agents, and Memory
+
 ### SigRank MCP
 
 AI operator token-efficiency leaderboard + yield cascade metrics. 15 tools for agents to measure, rank, and improve token usage.
@@ -3482,6 +3516,18 @@ Payments held between two agents: the buyer pays by x402 or MPP, the seller prov
 - Tags: payments, x402, stablecoins, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://agpay.shveik.dev/mcp
+
+### APISign
+
+Hosted MCP server for legally binding e-signature: create contracts from Markdown templates or .docx, email them to signers, track views and signatures, and get signed PDFs with a SHA-256 seal and audit trail.
+
+- URL: https://apisign.io/docs/api/mcp
+- Language: TypeScript
+- Provider: APISign
+- Official: yes
+- Tags: e-signature, contracts, documents, remote, api-key
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://apisign.io/mcp
 
 ### Ariadne for Therapists
 
