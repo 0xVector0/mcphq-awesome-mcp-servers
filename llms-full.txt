@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 383 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 386 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4006,6 +4006,18 @@ Look up fragrances with verdicts, similarity scores, scent profiles, drydowns an
 - Tags: fragrance, perfume, shopping, read-only, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://scentverdict.com/mcp
+
+### send21
+
+Create non-custodial crypto pay links and payment drafts in BTC, USDC, USDT, EURC, SOL or ETH; the payer signs in their own wallet.
+
+- URL: https://github.com/send21io/mcp
+- Language: Other
+- Provider: send21
+- Official: yes
+- Tags: payments, crypto, bitcoin, stablecoins, lightning
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://send21.io/mcp
 
 ### Shop Nobi
 

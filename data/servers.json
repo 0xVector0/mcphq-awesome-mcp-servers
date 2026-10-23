@@ -3179,6 +3179,17 @@
     }
   },
   {
+    "name": "send21",
+    "url": "https://github.com/send21io/mcp",
+    "description": "Create non-custodial crypto pay links and payment drafts in BTC, USDC, USDT, EURC, SOL or ETH; the payer signs in their own wallet.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "send21",
+    "tags": ["payments", "crypto", "bitcoin", "stablecoins", "lightning"],
+    "official": true,
+    "endpoints": { "streamableHttp": "https://send21.io/mcp" }
+  },
+  {
     "name": "APISign",
     "url": "https://apisign.io/docs/api/mcp",
     "description": "Hosted MCP server for legally binding e-signature: create contracts from Markdown templates or .docx, email them to signers, track views and signatures, and get signed PDFs with a SHA-256 seal and audit trail.",
