@@ -770,6 +770,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `recruiting` `hiring` `candidates` `remote` `oauth`
 - **[Datacircle](https://docs.datacircle.dev/mcp-server)** `Official` `Python` — Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key.  
   `b2b-data` `linkedin` `enrichment` `remote` `oauth`
+- **[Doomsday Network MCP](https://github.com/doomsday-network/doomsday)** `Official` `Python` — Agent-native Layer-1 Proof-of-Escrow & HTTP 402 micropayment MCP server: lock and claim SHA-256 preimage bounties for sub-agents, settle HTTP 402 pay-per-call tool micropayments, and verify Base Mainnet `wDOOM` transactions. Runs locally over stdio or at `https://doomsday.network/mcp`.  
+  `crypto` `escrow` `bounties` `x402` `agent-payments`
 - **[Elori](https://github.com/elori-debug/elori-mcp)** `Official` `TypeScript` — Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.  
   `crm` `sales` `meetings` `oauth`
 - **[Equibles](https://equibles.com/mcp)** `Official` `C#` — Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access.  
