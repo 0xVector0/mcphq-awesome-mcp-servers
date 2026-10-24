@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 386 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 394 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -123,6 +123,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Puppeteer MCP Server](https://github.com/merajmehrabi/puppeteer-mcp-server): Headless Chrome automation using Puppeteer for scraping and testing. (TypeScript)
 - [rea-captcha](https://github.com/masakaai/rea-captcha): MCP server that completes authorized test or owned verification flows in an agent's existing Playwright or CDP session, then resumes after fresh server validation. (TypeScript, official)
 - [Shortform Kit](https://shortformkit.com/mcp-server/): Read, download and Whisper-transcribe public Instagram Reels, TikToks and YouTube videos, plus sourced 2026 upload specs and creator data; free, no key. (Python, official)
+- [SitePatent](https://sitepatent.com/mcp): Read-only MCP server for the SitePatent product discovery directory: search the websites, SaaS and AI tools listed there, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account. (TypeScript, official)
 - [Surface](https://github.com/Surface-ops/surface): URL preflight for agents: preflight_url unwraps short links, follows redirects, refuses private hosts, and returns the final URL with next: fetch or skip. Never returns the page body; no API key. (JavaScript, official)
 - [Tavily MCP Server](https://github.com/tavily-ai/tavily-mcp): AI-native search and content extraction for research agents. (Python, official)
 - [TubeText TikTok Transcripts & Video Breakdown](https://github.com/LMSlay/tubetext-mcp/tree/main/registry/tiktok-transcripts): TikTok video transcripts (captions or Whisper AI) plus AI hook, shot list and script breakdown. Hosted on Apify (OAuth), pay per result. (Other, official)
@@ -288,6 +289,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Datadog MCP Server](https://github.com/datadog-labs/mcp-server): Query metrics, logs, and monitors from Datadog via the official Datadog Labs MCP server. (Python, official)
 - [dbt MCP Server](https://github.com/dbt-labs/dbt-mcp): Run dbt models, tests, and documentation workflows via MCP. (Python, official)
 - [DC Hub](https://github.com/azmartone67/dchub-mcp-server): Hosted MCP server and live data layer for data-center site selection: mapped power, grid, gas and fiber assets, daily DCPI scores for 300+ markets and live grid feeds from the seven US ISOs; free tier needs no key. (JavaScript, official)
+- [Eigenheim Berlin Market Data](https://github.com/magicSEO/eigenheim-mcp): Hosted, no-key, read-only MCP for Berlin real estate data: prices per m², rental yield, official land values, forecasts and listings. (TypeScript, official)
 - [Global Database](https://api.globaldatabase.com/docs/v2/#mcp-server): Hosted MCP server for company profiles, financials, ownership, officers, business contacts and KYB checks, with browser-based OAuth authentication. (Other, official)
 - [Google GenAI Toolbox](https://github.com/googleapis/genai-toolbox): Connect agents to BigQuery, Cloud SQL, Spanner, and other Google data sources. (Go, official)
 - [Grafana MCP Server](https://github.com/grafana/mcp-grafana): Explore Grafana dashboards, alerts, and observability data. (Go, official)
@@ -304,6 +306,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Mysocial](https://github.com/mysocialio/mysocial-intelligence): Official hosted OAuth MCP for social media intelligence: connected content history, performance signals, and creator memory over Streamable HTTP. (JavaScript, official)
 - [Netdata MCP Server](https://github.com/netdata/netdata): Real-time infrastructure monitoring and health metrics via MCP. (C, official)
 - [Open Health Sync](https://github.com/soma-intelligence/open-health-sync): Read-only MCP server, over stdio or Streamable HTTP, for a self-hosted store of wearable and health data synced from Apple Health, Health Connect, Oura, WHOOP, Withings and 8 other sources. (Go, official)
+- [PeekPanda](https://github.com/fdarkaou/peekpanda-mcp): Hosted competitor intelligence for iOS apps: see the Meta ads an app keeps paying for, the App Store searches it ranks for and the organic posts that went viral. (Other, official)
 - [Proofsource](https://proofsource.co/docs/chatgpt-and-claude): Hosted AI visibility server: which buyer questions name your brand in ChatGPT, Perplexity, Claude and Google AI Overviews, competitors named instead, cited sources, and fix tracking. OAuth. (Go, official)
 - [Robot Speed](https://github.com/robot-speed/mcp): SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing. (TypeScript, official)
 - [Screpy SEO MCP](https://screpy.com/feature/seo-mcp/): Hosted SEO MCP for project-scoped crawl, rank tracking, stored AI visibility, Core Web Vitals, and uptime data via OAuth. (Other, official)
@@ -325,6 +328,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 - [1Password MCP Server](https://github.com/CakeRepository/1Password-MCP): Community-maintained integration for accessing 1Password vault items in agent workflows. (Go)
 - [AcqPath](https://github.com/reflectme-source/acqpath-distribution): Signed, timestamped observations of machine-readable source-rights declarations for RAG, indexing, training, search, and AI input workflows. (Other, official)
+- [ActSeal](https://github.com/arults/actseal-mcp): Issue and verify Ed25519-signed receipts for agent actions via MCP tools issue_receipt and verify_receipt. Best-effort signed log; free 100/day at actseal.xyz. (TypeScript, official)
 - [Auth0 MCP Server](https://github.com/auth0/auth0-mcp-server): Manage Auth0 tenants, applications, and user identity settings. (TypeScript, official)
 - [Bridge Watch](https://github.com/LakeSky/bridge-watch-mcp): On-chain address intelligence for Base: seven read-only MCP tools for EVM address labels, transaction explanation, sybil clustering, alerts and CCTP transfer tracking, plus an anonymous free tier and x402 USDC pay-per-call. (TypeScript, official)
 - [Council of AI GSPC](https://github.com/CSOAI-ORG/councilof-ai): AI-governance measurement MCP server with free verification readers and x402-metered signed-evidence doors; remote endpoint at https://councilof.ai/mcp/. (TypeScript)
@@ -335,6 +339,8 @@ Links under each category point at the upstream project, docs, or registry page.
 - [HANRIA Mandate Check](https://hanria.ai): Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors. (JavaScript, official)
 - [INAM Protocol](https://github.com/inamprotocol/inam-protocol/tree/main/mcp): Look up an AI agent's reputation built only from work both parties signed, and check its x402 payTo wallet before paying it; draft and countersign Execution Receipts. (TypeScript, official)
 - [Lodestar Stamp](https://lodestarstamp.com): Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking. (TypeScript)
+- [NPMScan](https://npmscan.com/docs/mcp): Checks npm packages for malware, known vulnerabilities, typosquats, maintainer takeovers and risky install scripts, and audits lockfiles and SBOMs. (TypeScript, official)
+- [OpenBait Lookalike Domains](https://openbait.com/tools/typosquat-check): Hosted MCP server that lists lookalike domains of a brand's website and shows which resolve in DNS and what their front page shows. (Go, official)
 - [Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server): Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server. (TypeScript, official)
 - [Snyk MCP Server](https://github.com/snyk/studio-mcp): Scan dependencies and code for vulnerabilities with Snyk. (TypeScript, official)
 - [Sunglasses](https://github.com/sunglasses-dev/sunglasses): Scans text and files locally for prompt injection, credential leaks and data exfiltration; runs as a CLI, a Python API or an MCP server (python -m sunglasses.mcp). (Python)
@@ -364,7 +370,8 @@ Links under each category point at the upstream project, docs, or registry page.
 - [canli-validation-mcp](https://github.com/arhancanli/canli-validation-mcp): Checks whether a backtest result is real or just the luckiest of the variants tried: deflated Sharpe ratio, CSCV overfitting probability, data-snooping tests, lookahead checks and pipeline placebos. (JavaScript, official)
 - [Chord](https://github.com/getchordlabs/chord): Hosted MCP server with no API key for data: best-route DEX swap quotes and unsigned transactions on 7 EVM chains (Base, Monad, BNB Chain, Arbitrum and more), plus token boards, candles, wallet PnL and smart money. Non-custodial. (TypeScript, official)
 - [Clera](https://github.com/getclera/mcp): Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server. (TypeScript, official)
-- [Datacircle](https://docs.datacircle.dev/mcp-server): Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key. (Python, official)
+- [Datacircle](https://datacircle.dev/docs/mcp): Datacircle lists all the GTM APIs. Our MCP server is open to anyone, with no key: add api.datacircle.dev/mcp to Claude, ChatGPT or Cursor. (Python, official)
+- [Dexra](https://github.com/dexra-dev/mcp): Read-only risk verdicts (ok, caution or avoid, with reasons) for Solana launches, tokens, wallets, pools and planned swaps, via an API key with a free daily allowance or keyless x402 pay-per-call in USDC. (JavaScript, official)
 - [Elori](https://github.com/elori-debug/elori-mcp): Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required. (TypeScript, official)
 - [Equibles](https://equibles.com/mcp): Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access. (C#, official)
 - [Fincept MCP](https://github.com/Fincept-Corporation/fincept-mcp-docs): Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in. (Other, official)
@@ -404,6 +411,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Stripe MCP Server](https://github.com/stripe/agent-toolkit): Manage Stripe payments, customers, and subscriptions via MCP tools. (TypeScript, official)
 - [SwapWallet](https://github.com/SwapWallet/swapwallet-mcp): Crypto exchange account: balances, P&L, history and deposit addresses, plus swaps, transfers and withdrawals the user approves in Telegram. (Kotlin, official)
 - [Synci](https://github.com/synciio/synci-mcp): Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings, and connection health. (Other, official)
+- [Synmerco](https://www.npmjs.com/package/@synmerco/mcp-server): MCP server for Synmerco, an agent-to-agent marketplace where AI agents post and bid on funded jobs, with payment held in USDC escrow until the work is delivered. (TypeScript, official)
 - [Tapetide](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp): Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, financials, technicals, fundamental and technical screeners, FII/DII flows, option chains, filings, IPOs and portfolio tracking. (TypeScript, official)
 - [Tenmomo](https://github.com/tenmomo-sokui): Search US stores for cashback rates and coupon codes, and get a tracked activation link. (PHP, official)
 - [TraderSpy](https://github.com/target1m/traderspy-mcp): Read-only crypto futures market data: AI signals, top-trader positions on Hyperliquid, Binance, Bybit and OKX, indicators, funding, open interest, a screener and backtests. No order or withdrawal tools. (Other, official)

@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-386-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-394-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,15 +44,15 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (15)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (44)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (36)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (37)
 - [Filesystems and Documents](#filesystems-and-documents) (14)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (21)
 - [Communication and Productivity](#communication-and-productivity) (45)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (49)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (39)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (41)
 - [Legal and Court Data](#legal-and-court-data) (4)
-- [Security and Identity](#security-and-identity) (18)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (73)
+- [Security and Identity](#security-and-identity) (21)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (75)
 - [Utilities and Examples](#utilities-and-examples) (17)
 
 <a id="official-and-reference"></a>
@@ -280,6 +280,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `browser-automation` `agent-completion` `playwright` `cdp` `verification`
 - **[Shortform Kit](https://shortformkit.com/mcp-server/)** `Official` `Python` — Read, download and Whisper-transcribe public Instagram Reels, TikToks and YouTube videos, plus sourced 2026 upload specs and creator data; free, no key.  
   `video` `transcription` `social-media` `youtube` `remote`
+- **[SitePatent](https://sitepatent.com/mcp)** `Official` `TypeScript` — Read-only MCP server for the SitePatent product discovery directory: search the websites, SaaS and AI tools listed there, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.  
+  `search` `directory` `startups` `remote`
 - **[Surface](https://github.com/Surface-ops/surface)** `Official` `JavaScript` — URL preflight for agents: preflight_url unwraps short links, follows redirects, refuses private hosts, and returns the final URL with next: fetch or skip. Never returns the page body; no API key.  
   `url` `redirects` `link-safety` `preflight` `remote`
 - **[Tavily MCP Server](https://github.com/tavily-ai/tavily-mcp)** `Official` `Python` — AI-native search and content extraction for research agents.  
@@ -615,6 +617,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `dbt` `analytics` `transform`
 - **[DC Hub](https://github.com/azmartone67/dchub-mcp-server)** `Official` `JavaScript` — Hosted MCP server and live data layer for data-center site selection: mapped power, grid, gas and fiber assets, daily DCPI scores for 300+ markets and live grid feeds from the seven US ISOs; free tier needs no key.  
   `data-centers` `energy` `power-grid` `site-selection` `remote`
+- **[Eigenheim Berlin Market Data](https://github.com/magicSEO/eigenheim-mcp)** `Official` `TypeScript` — Hosted, no-key, read-only MCP for Berlin real estate data: prices per m², rental yield, official land values, forecasts and listings.  
+  `real-estate` `berlin` `market-data` `remote`
 - **[Global Database](https://api.globaldatabase.com/docs/v2/#mcp-server)** `Official` `Other` — Hosted MCP server for company profiles, financials, ownership, officers, business contacts and KYB checks, with browser-based OAuth authentication.  
   `company-data` `business-intelligence` `kyb` `oauth`
 - **[Google GenAI Toolbox](https://github.com/googleapis/genai-toolbox)** `Official` `Go` — Connect agents to BigQuery, Cloud SQL, Spanner, and other Google data sources.  
@@ -647,6 +651,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `monitoring` `infra` `metrics`
 - **[Open Health Sync](https://github.com/soma-intelligence/open-health-sync)** `Official` `Go` — Read-only MCP server, over stdio or Streamable HTTP, for a self-hosted store of wearable and health data synced from Apple Health, Health Connect, Oura, WHOOP, Withings and 8 other sources.  
   `health` `wearables` `fitness` `fhir` `self-hosted`
+- **[PeekPanda](https://github.com/fdarkaou/peekpanda-mcp)** `Official` `Other` — Hosted competitor intelligence for iOS apps: see the Meta ads an app keeps paying for, the App Store searches it ranks for and the organic posts that went viral.  
+  `ios` `app-store` `aso` `ads` `remote`
 - **[Proofsource](https://proofsource.co/docs/chatgpt-and-claude)** `Official` `Go` — Hosted AI visibility server: which buyer questions name your brand in ChatGPT, Perplexity, Claude and Google AI Overviews, competitors named instead, cited sources, and fix tracking. OAuth.  
   `ai-visibility` `geo` `aeo` `marketing` `remote`
 - **[Robot Speed](https://github.com/robot-speed/mcp)** `Official` `TypeScript` — SEO tools for AI agents: audits, Core Web Vitals, keywords, AI visibility, traffic, backlinks, and CMS publishing.  
@@ -691,6 +697,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `secrets` `passwords` `vault`
 - **[AcqPath](https://github.com/reflectme-source/acqpath-distribution)** `Official` `Other` — Signed, timestamped observations of machine-readable source-rights declarations for RAG, indexing, training, search, and AI input workflows.  
   `rights` `provenance` `compliance` `rag` `remote`
+- **[ActSeal](https://github.com/arults/actseal-mcp)** `Official` `TypeScript` — Issue and verify Ed25519-signed receipts for agent actions via MCP tools issue_receipt and verify_receipt. Best-effort signed log; free 100/day at actseal.xyz.  
+  `receipts` `ed25519` `attestations` `agents` `audit`
 - **[Auth0 MCP Server](https://github.com/auth0/auth0-mcp-server)** `Official` `TypeScript` — Manage Auth0 tenants, applications, and user identity settings.  
   `auth` `identity` `oauth`
 - **[Bridge Watch](https://github.com/LakeSky/bridge-watch-mcp)** `Official` `TypeScript` — On-chain address intelligence for Base: seven read-only MCP tools for EVM address labels, transaction explanation, sybil clustering, alerts and CCTP transfer tracking, plus an anonymous free tier and x402 USDC pay-per-call.  
@@ -711,6 +719,10 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `reputation` `x402` `receipts` `identity` `remote`
 - **[Lodestar Stamp](https://lodestarstamp.com)** `TypeScript` — Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.  
   `trust` `receipts` `agents` `security`
+- **[NPMScan](https://npmscan.com/docs/mcp)** `Official` `TypeScript` — Checks npm packages for malware, known vulnerabilities, typosquats, maintainer takeovers and risky install scripts, and audits lockfiles and SBOMs.  
+  `npm` `supply-chain` `vulnerabilities` `malware` `remote`
+- **[OpenBait Lookalike Domains](https://openbait.com/tools/typosquat-check)** `Official` `Go` — Hosted MCP server that lists lookalike domains of a brand's website and shows which resolve in DNS and what their front page shows.  
+  `security` `domains` `typosquatting` `remote`
 - **[Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server)** `Official` `TypeScript` — Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server.  
   `auth` `identity` `oauth` `mcp`
 - **[Snyk MCP Server](https://github.com/snyk/studio-mcp)** `Official` `TypeScript` — Scan dependencies and code for vulnerabilities with Snyk.  
@@ -770,8 +782,10 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `blockchain` `defi` `swap` `trading` `crypto`
 - **[Clera](https://github.com/getclera/mcp)** `Official` `TypeScript` — Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server.  
   `recruiting` `hiring` `candidates` `remote` `oauth`
-- **[Datacircle](https://docs.datacircle.dev/mcp-server)** `Official` `Python` — Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key.  
-  `b2b-data` `linkedin` `enrichment` `remote` `oauth`
+- **[Datacircle](https://datacircle.dev/docs/mcp)** `Official` `Python` — Datacircle lists all the GTM APIs. Our MCP server is open to anyone, with no key: add api.datacircle.dev/mcp to Claude, ChatGPT or Cursor.  
+  `remote` `no-auth` `read-only` `sales` `pricing`
+- **[Dexra](https://github.com/dexra-dev/mcp)** `Official` `JavaScript` — Read-only risk verdicts (ok, caution or avoid, with reasons) for Solana launches, tokens, wallets, pools and planned swaps, via an API key with a free daily allowance or keyless x402 pay-per-call in USDC.  
+  `solana` `crypto` `risk` `x402`
 - **[Elori](https://github.com/elori-debug/elori-mcp)** `Official` `TypeScript` — Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required.  
   `crm` `sales` `meetings` `oauth`
 - **[Equibles](https://equibles.com/mcp)** `Official` `C#` — Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access.  
@@ -850,6 +864,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crypto` `wallet` `finance` `oauth` `remote`
 - **[Synci](https://github.com/synciio/synci-mcp)** `Official` `Other` — Read-only bank, brokerage, and crypto accounts: balances, transactions, holdings, and connection health.  
   `banking` `personal-finance` `open-banking` `oauth` `read-only`
+- **[Synmerco](https://www.npmjs.com/package/@synmerco/mcp-server)** `Official` `TypeScript` — MCP server for Synmerco, an agent-to-agent marketplace where AI agents post and bid on funded jobs, with payment held in USDC escrow until the work is delivered.  
+  `agents` `marketplace` `escrow` `payments` `usdc`
 - **[Tapetide](https://github.com/Tapetide-hq/nse-bse-indian-stock-market-data-mcp)** `Official` `TypeScript` — Indian stock market (NSE and BSE) research for about 8,200 stocks: quotes, financials, technicals, fundamental and technical screeners, FII/DII flows, option chains, filings, IPOs and portfolio tracking.  
   `stocks` `india` `market-data` `remote` `oauth`
 - **[Tenmomo](https://github.com/tenmomo-sokui)** `Official` `PHP` — Search US stores for cashback rates and coupon codes, and get a tracked activation link.  
