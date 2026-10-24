@@ -3460,6 +3460,24 @@
     }
   },
   {
+    "name": "Zaptu",
+    "url": "https://github.com/TommyTap11/zaptu",
+    "description": "Sends a person's consented US home-service contact request (service, ZIP, name, phone) to independent local providers; for plumbing it returns a number the person dials, and Zaptu does not perform the work.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "Zaptu",
+    "tags": [
+      "home-services",
+      "local-services",
+      "leads",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.zaptu.ai/mcp"
+    }
+  },
+  {
     "name": "MCP Everything",
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
     "description": "Reference server exposing prompts, resources, and tools for protocol testing.",

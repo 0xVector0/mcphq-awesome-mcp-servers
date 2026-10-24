@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 399 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 400 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4412,6 +4412,18 @@ Remote job search MCP for exploring 4 million roles with visa, salary, and dista
 - Tags: jobs, recruiting, remote, oauth
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.worklittle.com/
+
+### Zaptu
+
+Sends a person's consented US home-service contact request (service, ZIP, name, phone) to independent local providers; for plumbing it returns a number the person dials, and Zaptu does not perform the work.
+
+- URL: https://github.com/TommyTap11/zaptu
+- Language: Python
+- Provider: Zaptu
+- Official: yes
+- Tags: home-services, local-services, leads, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://api.zaptu.ai/mcp
 
 ### Zovo Invoice Generator
 
