@@ -6748,5 +6748,20 @@
     "endpoints": {
       "streamableHttp": "https://x402-data-api.sigrunner.workers.dev/mcp"
     }
+  },
+  {
+    "name": "Koru MCP Server",
+    "url": "https://github.com/koruworks/mono",
+    "description": "Search and read documents and files, and create and edit documents, in the local database of the Koru notes, docs and files app.",
+    "category": "filesystems-and-documents",
+    "language": "Rust",
+    "provider": "Koru Works",
+    "tags": [
+      "notes",
+      "documents",
+      "local-first",
+      "local"
+    ],
+    "official": true
   }
 ]

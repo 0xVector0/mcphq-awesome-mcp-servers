@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 411 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 412 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1312,6 +1312,17 @@ Search and retrieve a curated research corpus on longevity, robotics, AI, and sp
 - Tags: research, knowledge-base, longevity, search
 - Category: Filesystems and Documents
 - Streamable HTTP endpoint: https://grandpasai.com/mcp
+
+### Koru MCP Server
+
+Search and read documents and files, and create and edit documents, in the local database of the Koru notes, docs and files app.
+
+- URL: https://github.com/koruworks/mono
+- Language: Rust
+- Provider: Koru Works
+- Official: yes
+- Tags: notes, documents, local-first, local
+- Category: Filesystems and Documents
 
 ### MarkItDown MCP
 
