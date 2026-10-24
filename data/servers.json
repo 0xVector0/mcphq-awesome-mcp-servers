@@ -6729,5 +6729,24 @@
     "endpoints": {
       "streamableHttp": "https://api.apimodels.app/mcp"
     }
+  },
+  {
+    "name": "Grey Ridge x402 Market & DeFi Data",
+    "url": "https://github.com/rezearcher/x402-data-api",
+    "description": "Keyless Base market data for agents: live DeFi yields, perp funding rates, crypto spot prices, Polymarket odds and a pre-trade token-safety gate. Free preview tools; paid calls settle per request in USDC via x402, no key or account.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Grey Ridge Signals",
+    "tags": [
+      "x402",
+      "base",
+      "defi",
+      "crypto",
+      "remote"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://x402-data-api.sigrunner.workers.dev/mcp"
+    }
   }
 ]
