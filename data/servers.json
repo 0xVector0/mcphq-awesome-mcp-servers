@@ -6641,5 +6641,23 @@
     "endpoints": {
       "streamableHttp": "https://send21.io/mcp"
     }
+  },
+  {
+    "name": "Campfire SMS",
+    "url": "https://github.com/campfiresms/campfire-mcp",
+    "description": "Two-way SMS bridge for coding agents: the agent texts you when it finishes or is blocked and reads your SMS replies.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "Campfire SMS",
+    "tags": [
+      "sms",
+      "notifications",
+      "human-in-the-loop",
+      "coding-agents"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.campfiresms.com/mcp"
+    }
   }
 ]
