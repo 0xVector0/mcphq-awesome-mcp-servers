@@ -1714,17 +1714,17 @@
   },
   {
     "name": "Datacircle",
-    "url": "https://docs.datacircle.dev/mcp-server",
-    "description": "Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key.",
+    "url": "https://datacircle.dev/docs/mcp",
+    "description": "Datacircle lists all the GTM APIs. Our MCP server is open to anyone, with no key: add api.datacircle.dev/mcp to Claude, ChatGPT or Cursor.",
     "category": "finance-commerce-and-business-apps",
     "language": "Python",
     "provider": "Datacircle",
     "tags": [
-      "b2b-data",
-      "linkedin",
-      "enrichment",
       "remote",
-      "oauth"
+      "no-auth",
+      "read-only",
+      "sales",
+      "pricing"
     ],
     "official": true,
     "endpoints": {
@@ -2007,6 +2007,21 @@
     "endpoints": {
       "streamableHttp": "https://enhanciar.in/enhanciar/mcp/"
     }
+  },
+  {
+    "name": "Eigenheim Berlin Market Data",
+    "url": "https://github.com/magicSEO/eigenheim-mcp",
+    "description": "Hosted, no-key, read-only MCP for Berlin real estate data: prices per m², rental yield, official land values, forecasts and listings.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "Eigenheim & Invest",
+    "tags": [
+      "real-estate",
+      "berlin",
+      "market-data",
+      "remote"
+    ],
+    "official": true
   },
   {
     "name": "Equibles",
@@ -2719,6 +2734,24 @@
     }
   },
   {
+    "name": "Dexra",
+    "url": "https://github.com/dexra-dev/mcp",
+    "description": "Read-only risk verdicts (ok, caution or avoid, with reasons) for Solana launches, tokens, wallets, pools and planned swaps, via an API key with a free daily allowance or keyless x402 pay-per-call in USDC.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Dexra",
+    "tags": [
+      "solana",
+      "crypto",
+      "risk",
+      "x402"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.dexra.dev/mcp"
+    }
+  },
+  {
     "name": "INAM Protocol",
     "url": "https://github.com/inamprotocol/inam-protocol/tree/main/mcp",
     "description": "Look up an AI agent's reputation built only from work both parties signed, and check its x402 payTo wallet before paying it; draft and countersign Execution Receipts.",
@@ -2770,6 +2803,22 @@
     "endpoints": {
       "streamableHttp": "https://invokely.ai/mcp/trial"
     }
+  },
+  {
+    "name": "Synmerco",
+    "url": "https://www.npmjs.com/package/@synmerco/mcp-server",
+    "description": "MCP server for Synmerco, an agent-to-agent marketplace where AI agents post and bid on funded jobs, with payment held in USDC escrow until the work is delivered.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Synmerco",
+    "tags": [
+      "agents",
+      "marketplace",
+      "escrow",
+      "payments",
+      "usdc"
+    ],
+    "official": true
   },
   {
     "name": "Invompt",
@@ -3049,6 +3098,21 @@
     "official": false
   },
   {
+    "name": "CloakBrowser MCP",
+    "url": "https://github.com/swimmwatch/cloakbrowser-mcp",
+    "description": "Runs upstream Playwright MCP with CloakBrowser Chromium, preserving its browser tools and adding bridge diagnostics.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "browser-automation",
+      "playwright",
+      "chromium",
+      "stdio"
+    ],
+    "official": false
+  },
+  {
     "name": "Lodestar Stamp",
     "url": "https://lodestarstamp.com",
     "description": "Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking.",
@@ -3183,6 +3247,25 @@
     }
   },
   {
+    "name": "APISign",
+    "url": "https://apisign.io/docs/api/mcp",
+    "description": "Hosted MCP server for legally binding e-signature: create contracts from Markdown templates or .docx, email them to signers, track views and signatures, and get signed PDFs with a SHA-256 seal and audit trail.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "APISign",
+    "tags": [
+      "e-signature",
+      "contracts",
+      "documents",
+      "remote",
+      "api-key"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://apisign.io/mcp"
+    }
+  },
+  {
     "name": "MakeAIVideo",
     "url": "https://github.com/makeaivideo-ai/mcp",
     "description": "Official MakeAIVideo server for creating short-form AI videos with voiceover, scenes, captions and music, then posting them to connected social accounts.",
@@ -3269,6 +3352,43 @@
     "official": false,
     "endpoints": {
       "streamableHttp": "https://markovo.net/mcp"
+    }
+  },
+  {
+    "name": "deed.page",
+    "url": "https://deed.page/docs",
+    "description": "Publishes HTML or a static folder to a permanent HTTPS URL with no account; update, version, restore and delete sites through a remote MCP server.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "deed.page",
+    "tags": [
+      "hosting",
+      "static-sites",
+      "deploy",
+      "publish",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://deed.page/mcp"
+    }
+  },
+  {
+    "name": "OpenBait Lookalike Domains",
+    "url": "https://openbait.com/tools/typosquat-check",
+    "description": "Hosted MCP server that lists lookalike domains of a brand's website and shows which resolve in DNS and what their front page shows.",
+    "category": "security-and-identity",
+    "language": "Go",
+    "provider": "OpenBait",
+    "tags": [
+      "security",
+      "domains",
+      "typosquatting",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://openbait.com/api/mcp"
     }
   },
   {
@@ -4206,6 +4326,25 @@
     "official": true
   },
   {
+    "name": "PeekPanda",
+    "url": "https://github.com/fdarkaou/peekpanda-mcp",
+    "description": "Hosted competitor intelligence for iOS apps: see the Meta ads an app keeps paying for, the App Store searches it ranks for and the organic posts that went viral.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "PeekPanda",
+    "tags": [
+      "ios",
+      "app-store",
+      "aso",
+      "ads",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.peekpanda.com/mcp"
+    }
+  },
+  {
     "name": "Pinecone MCP Server",
     "url": "https://github.com/pinecone-io/pinecone-mcp",
     "description": "Manage Pinecone indexes and run semantic vector queries.",
@@ -4738,6 +4877,24 @@
     }
   },
   {
+    "name": "SitePatent",
+    "url": "https://sitepatent.com/mcp",
+    "description": "Read-only MCP server for the SitePatent product discovery directory: search the websites, SaaS and AI tools listed there, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "SitePatent",
+    "tags": [
+      "search",
+      "directory",
+      "startups",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://sitepatent.com/api/mcp"
+    }
+  },
+  {
     "name": "SandBase CLI",
     "url": "https://github.com/sandbaseai/cli",
     "description": "Local MCP server that lets AI clients discover and run 2,000+ AI models and APIs through six tools.",
@@ -4862,6 +5019,21 @@
       "coding-agents",
       "sqlite",
       "local-first"
+    ],
+    "official": false
+  },
+  {
+    "name": "ShortSmash",
+    "url": "https://github.com/hydope/shortsmash",
+    "description": "MCP server + CLI that turns a prompt into a published short video: AI script, 50-language dubbing, karaoke captions, 10 publishing platforms.",
+    "category": "ai-agents-and-memory",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "video",
+      "content-creation",
+      "agents",
+      "publishing"
     ],
     "official": false
   },
@@ -6244,5 +6416,21 @@
     "endpoints": {
       "streamableHttp": "https://mcp.zovo.one/mcp/time-tracker"
     }
+  },
+  {
+    "name": "ActSeal",
+    "url": "https://github.com/arults/actseal-mcp",
+    "description": "Issue and verify Ed25519-signed receipts for agent actions via MCP tools issue_receipt and verify_receipt. Best-effort signed log; free 100/day at actseal.xyz.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "ActSeal",
+    "tags": [
+      "receipts",
+      "ed25519",
+      "attestations",
+      "agents",
+      "audit"
+    ],
+    "official": true
   }
 ]
