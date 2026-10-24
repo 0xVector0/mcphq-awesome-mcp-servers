@@ -6299,5 +6299,21 @@
     "endpoints": {
       "streamableHttp": "https://mcp.zovo.one/mcp/time-tracker"
     }
+  },
+  {
+    "name": "ActSeal",
+    "url": "https://github.com/arults/actseal-mcp",
+    "description": "Issue and verify Ed25519-signed receipts for agent actions via MCP tools issue_receipt and verify_receipt. Best-effort signed log; free 100/day at actseal.xyz.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "ActSeal",
+    "tags": [
+      "receipts",
+      "ed25519",
+      "attestations",
+      "agents",
+      "audit"
+    ],
+    "official": true
   }
 ]
