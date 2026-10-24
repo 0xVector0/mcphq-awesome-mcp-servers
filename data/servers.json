@@ -4858,6 +4858,24 @@
     }
   },
   {
+    "name": "SitePatent",
+    "url": "https://sitepatent.com/mcp",
+    "description": "Read-only MCP server for the SitePatent product discovery directory: search the websites, SaaS and AI tools listed there, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "SitePatent",
+    "tags": [
+      "search",
+      "directory",
+      "startups",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://sitepatent.com/api/mcp"
+    }
+  },
+  {
     "name": "SandBase CLI",
     "url": "https://github.com/sandbaseai/cli",
     "description": "Local MCP server that lets AI clients discover and run 2,000+ AI models and APIs through six tools.",
