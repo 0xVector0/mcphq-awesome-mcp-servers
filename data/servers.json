@@ -6692,5 +6692,23 @@
     "endpoints": {
       "streamableHttp": "https://api.solvecha.com/mcp"
     }
+  },
+  {
+    "name": "Revid",
+    "url": "https://www.revid.ai/mcp",
+    "description": "Official Revid server to research viral TikTok, YouTube, Instagram and X videos, make finished short-form videos with voice, captions and music, and publish or schedule them.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Revid",
+    "tags": [
+      "video",
+      "video-generation",
+      "social-media",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.revid.ai/api/mcp"
+    }
   }
 ]
