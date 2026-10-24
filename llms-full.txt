@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 398 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 399 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2336,6 +2336,17 @@ Evaluate supplied facts against approved rules and read/export owned decision re
 - Tags: deterministic, decision-records, policy, remote, bearer
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://mcp-live.decide.fyi/developer-prepaid/v1/mcp
+
+### DeltaX Preflight
+
+Preview local stdio MCP server checks finite candidate proposals against separate policy and evidence, with admissible candidates and SHA-256 receipts; it does not authenticate facts, select candidates, execute actions or grant authority.
+
+- URL: https://github.com/DeltaX-Public/deltax-preflight
+- Language: JavaScript
+- Provider: DeltaX
+- Official: yes
+- Tags: preflight, policy, evidence, stdio, receipts
+- Category: AI, Agents, and Memory
 
 ### fitlog-mcp
 
