@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 392 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 393 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3395,6 +3395,18 @@ Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP disco
 - Official: no
 - Tags: trust, receipts, agents, security
 - Category: Security and Identity
+
+### NPMScan
+
+Checks npm packages for malware, known vulnerabilities, typosquats, maintainer takeovers and risky install scripts, and audits lockfiles and SBOMs.
+
+- URL: https://npmscan.com/docs/mcp
+- Language: TypeScript
+- Provider: NPMScan
+- Official: yes
+- Tags: npm, supply-chain, vulnerabilities, malware, remote
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://npmscan.com/api/mcp
 
 ### OpenBait Lookalike Domains
 
