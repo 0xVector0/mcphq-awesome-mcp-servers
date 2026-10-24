@@ -6763,5 +6763,24 @@
       "local"
     ],
     "official": true
+  },
+  {
+    "name": "Wheremind",
+    "url": "https://wheremind.ai",
+    "description": "Hosted maps MCP server for AI agents: live place search, place details, nearby search, geocoding, and directions, with no Maps API key to manage.",
+    "category": "utilities-and-examples",
+    "language": "Other",
+    "provider": "Wheremind",
+    "tags": [
+      "maps",
+      "geocoding",
+      "places",
+      "directions",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://wheremind.ai/mcp"
+    }
   }
 ]
