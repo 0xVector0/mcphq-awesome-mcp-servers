@@ -6834,5 +6834,24 @@
     "endpoints": {
       "streamableHttp": "https://rolesemsp.com.br/mcp"
     }
+  },
+  {
+    "name": "Quibbly LinkedIn MCP",
+    "url": "https://github.com/Scriptify-Inc/linkedin-mcp",
+    "description": "Reads your LinkedIn inbox as synced by the Quibbly Chrome extension, shows who watched your videos, sets follow-ups and notes, and drafts replies you send yourself.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Quibbly",
+    "tags": [
+      "linkedin",
+      "sales",
+      "crm",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://server.quibbly.co/mcp"
+    }
   }
 ]
