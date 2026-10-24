@@ -6905,5 +6905,23 @@
     "endpoints": {
       "streamableHttp": "https://aiguanchao.com/mcp"
     }
+  },
+  {
+    "name": "AgentTask Atlas",
+    "url": "https://agenttaskatlas.com/mcp",
+    "description": "Read-only, no-auth search over a curated catalog of MCP servers and Agent Skills organized by dev task, each with a one-line verdict, install command and source link.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "AgentTask Atlas",
+    "tags": [
+      "directory",
+      "discovery",
+      "devtools",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://agenttaskatlas.com/api/mcp"
+    }
   }
 ]
