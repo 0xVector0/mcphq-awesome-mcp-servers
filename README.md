@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-394-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-395-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (37)
 - [Filesystems and Documents](#filesystems-and-documents) (14)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (21)
-- [Communication and Productivity](#communication-and-productivity) (46)
+- [Communication and Productivity](#communication-and-productivity) (47)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (49)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (41)
 - [Legal and Court Data](#legal-and-court-data) (4)
@@ -411,6 +411,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `discord` `chat` `community`
 - **[Enhanciar](https://github.com/enhanciar/enhanciar-mcp)** `Official` `Other` — A company brain that answers from your Slack, Gmail, Notion and Drive with the source, then drafts the reply or ticket for you to approve. Hosted; needs an Enhanciar API key (paid plans).  
   `knowledge-base` `enterprise-search` `slack` `hosted`
+- **[ent1-mcp](https://github.com/edouard-claude/ent1-mcp)** `Rust` — Parent access to ENT ONE, the French primary-school digital workspace (Edifice): teacher messaging, liaison book, homework, news, calendar and documents.  
+  `education` `school` `france` `messaging` `parents`
 - **[Faceless](https://faceless.so)** `Official` `TypeScript` — Create AI faceless videos from a script, run automated series, and publish to YouTube, TikTok, Instagram, X, Facebook, LinkedIn, and Threads. Remote Streamable HTTP at https://faceless.so/api/v1/mcp (Authorization: Bearer fl_live_...).  
   `video` `social-media` `publishing` `remote`
 - **[Gmail MCP Server](https://github.com/GongRzhe/Gmail-MCP-Server)** `TypeScript` — Search, read, and compose Gmail messages from MCP clients.  

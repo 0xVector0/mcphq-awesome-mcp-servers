@@ -4513,6 +4513,22 @@
     "official": true
   },
   {
+    "name": "ent1-mcp",
+    "url": "https://github.com/edouard-claude/ent1-mcp",
+    "description": "Parent access to ENT ONE, the French primary-school digital workspace (Edifice): teacher messaging, liaison book, homework, news, calendar and documents.",
+    "category": "communication-and-productivity",
+    "language": "Rust",
+    "provider": "Community",
+    "tags": [
+      "education",
+      "school",
+      "france",
+      "messaging",
+      "parents"
+    ],
+    "official": false
+  },
+  {
     "name": "Prisma MCP Server",
     "url": "https://www.prisma.io/docs/ai/tools/mcp-server",
     "description": "Manage Prisma Postgres databases, Prisma Compute deployments, and Object Storage from AI tools through a remote MCP server.",
