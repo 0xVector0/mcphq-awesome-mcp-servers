@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-403-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-404-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (15)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (44)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (37)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (38)
 - [Filesystems and Documents](#filesystems-and-documents) (14)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (22)
 - [Communication and Productivity](#communication-and-productivity) (47)
@@ -258,6 +258,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `search` `directory` `startups` `remote`
 - **[ContHunt](https://github.com/Synthenova/conthunt-mcp)** `Official` `Other` — Discover and research viral social content on TikTok, Instagram Reels, and YouTube Shorts.  
   `social` `content` `research` `tiktok`
+- **[crawlbrulee mcp server](https://github.com/crawlbrulee/crawlbrulee-mcp)** `Official` `TypeScript` — Scrape any page into clean markdown, screenshots, metadata and links, or map a site's urls, with an EU-hosted web scraping api.  
+  `scraping` `markdown` `screenshots` `eu`
 - **[CurlShot](https://curlshot.com/docs)** `Official` `TypeScript` — Hosted screenshot API over remote MCP: renders any public URL as PNG, JPEG, WebP, PDF or a scrolling video, full page or at a device preset. API key as Bearer token; free plan 100 screenshots/month, no card.  
   `screenshot` `pdf` `web-capture` `remote`
 - **[Exa MCP Server](https://github.com/exa-labs/exa-mcp-server)** `Official` `TypeScript` — Neural and keyword web search optimized for AI research workflows.  

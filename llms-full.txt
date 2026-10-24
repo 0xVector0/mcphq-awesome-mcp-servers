@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 403 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 404 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1009,6 +1009,17 @@ Discover and research viral social content on TikTok, Instagram Reels, and YouTu
 - Tags: social, content, research, tiktok
 - Category: Browsers, Search, and Web Automation
 - Streamable HTTP endpoint: https://mcp.conthunt.app/
+
+### crawlbrulee mcp server
+
+Scrape any page into clean markdown, screenshots, metadata and links, or map a site's urls, with an EU-hosted web scraping api.
+
+- URL: https://github.com/crawlbrulee/crawlbrulee-mcp
+- Language: TypeScript
+- Provider: crawlbrulee
+- Official: yes
+- Tags: scraping, markdown, screenshots, eu
+- Category: Browsers, Search, and Web Automation
 
 ### CurlShot
 
