@@ -6887,5 +6887,23 @@
       "local"
     ],
     "official": true
+  },
+  {
+    "name": "AI\u89c2\u6f6e News MCP",
+    "url": "https://aiguanchao.com/en/agent",
+    "description": "Curated AI news, daily briefs, trending stories and an LLM leaderboard; summaries in Chinese with source links. Needs a personal token (free daily quota).",
+    "category": "browsers-search-and-web-automation",
+    "language": "Go",
+    "provider": "AI\u89c2\u6f6e",
+    "tags": [
+      "news",
+      "ai-news",
+      "chinese",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://aiguanchao.com/mcp"
+    }
   }
 ]
