@@ -6799,5 +6799,21 @@
     "endpoints": {
       "streamableHttp": "https://gpu.nz/mcp"
     }
+  },
+  {
+    "name": "MCP Production Kit",
+    "url": "https://github.com/A7mdMe/mcp-production-kit",
+    "description": "Enterprise TypeScript starter kit for building production MCP servers with dual stdio/SSE transports, SSRF defense, memory store, and Docker support.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Antigravity Autonomous Lab",
+    "tags": [
+      "boilerplate",
+      "starter-kit",
+      "docker",
+      "security",
+      "developer-tools"
+    ],
+    "official": false
   }
 ]

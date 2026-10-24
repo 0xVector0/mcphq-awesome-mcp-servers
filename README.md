@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-414-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-415-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -43,7 +43,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (15)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (45)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (46)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (39)
 - [Filesystems and Documents](#filesystems-and-documents) (15)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (23)
@@ -181,6 +181,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `agents-md` `prompts` `ai-rules`
 - **[Mac MCP](https://github.com/bulutarkan/mac-mcp)** `Python` — Local-first macOS MCP server for controlling browser tabs, Mac apps, files and terminal.  
   `macos` `browser-automation` `desktop-automation` `agents` `local`
+- **[MCP Production Kit](https://github.com/A7mdMe/mcp-production-kit)** `TypeScript` — Enterprise TypeScript starter kit for building production MCP servers with dual stdio/SSE transports, SSRF defense, memory store, and Docker support.  
+  `boilerplate` `starter-kit` `docker` `security` `developer-tools`
 - **[mcp-pool](https://github.com/yuzu-octopus/mcp-pool)** `TypeScript` — MCP Key Pool Proxy — pool multiple API keys across upstream MCP servers to distribute rate limits. One subprocess per pool, lazy failover, per-key cooldown.  
   `mcp` `proxy` `pool` `api-keys` `rate-limiting`
 - **[NAIF Gravity](https://naifgravity.com)** `Official` `Other` — Hosted MCP diagnostics for API authentication, webhooks, and AI-agent integration failures, with bounded repair workflows based on sanitized evidence; free triage and optional paid repairs.  
