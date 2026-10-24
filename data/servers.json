@@ -6872,5 +6872,20 @@
     "endpoints": {
       "streamableHttp": "https://callmemcp.com/mcp"
     }
+  },
+  {
+    "name": "Yap MCP",
+    "url": "https://github.com/founden-bot/yap-mcp",
+    "description": "Transcribes local audio and video files on your computer with Parakeet TDT v3 (25 European languages, no API key, no upload) and searches your Yap dictation history.",
+    "category": "filesystems-and-documents",
+    "language": "JavaScript",
+    "provider": "Yap",
+    "tags": [
+      "speech-to-text",
+      "transcription",
+      "audio",
+      "local"
+    ],
+    "official": true
   }
 ]
