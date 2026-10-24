@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-415-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-416-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -44,7 +44,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Official and Reference Servers](#official-and-reference) (11)
 - [Databases and Storage](#databases-and-storage) (15)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (46)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (39)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (40)
 - [Filesystems and Documents](#filesystems-and-documents) (15)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (23)
 - [Communication and Productivity](#communication-and-productivity) (49)
@@ -284,6 +284,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `puppeteer` `browser` `scraping`
 - **[rea-captcha](https://github.com/masakaai/rea-captcha)** `Official` `TypeScript` — MCP server that completes authorized test or owned verification flows in an agent's existing Playwright or CDP session, then resumes after fresh server validation.  
   `browser-automation` `agent-completion` `playwright` `cdp` `verification`
+- **[Rolês em SP](https://rolesemsp.com.br/connect.md)** `Official` `JavaScript` — Curated São Paulo cultural outing discovery through a hosted MCP endpoint requiring OAuth.  
+  `travel` `events` `sao-paulo` `remote` `streamable-http`
 - **[Shortform Kit](https://shortformkit.com/mcp-server/)** `Official` `Python` — Read, download and Whisper-transcribe public Instagram Reels, TikToks and YouTube videos, plus sourced 2026 upload specs and creator data; free, no key.  
   `video` `transcription` `social-media` `youtube` `remote`
 - **[SitePatent](https://sitepatent.com/mcp)** `Official` `TypeScript` — Read-only MCP server for the SitePatent product discovery directory: search the websites, SaaS and AI tools listed there, read full listing profiles, find alternatives to a product and see what is trending; no API key, no account.  

@@ -6815,5 +6815,24 @@
       "developer-tools"
     ],
     "official": false
+  },
+  {
+    "name": "Rol\u00eas em SP",
+    "url": "https://rolesemsp.com.br/connect.md",
+    "description": "Curated S\u00e3o Paulo cultural outing discovery through a hosted MCP endpoint requiring OAuth.",
+    "category": "browsers-search-and-web-automation",
+    "language": "JavaScript",
+    "provider": "Rol\u00eas em SP",
+    "tags": [
+      "travel",
+      "events",
+      "sao-paulo",
+      "remote",
+      "streamable-http"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://rolesemsp.com.br/mcp"
+    }
   }
 ]
