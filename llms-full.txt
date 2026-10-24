@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 409 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 410 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2337,6 +2337,18 @@ Remote MCP server (also A2A and HTTP) giving agents a persistent identity, versi
 - Tags: memory, agents, storage, directory, remote
 - Category: AI, Agents, and Memory
 - Streamable HTTP endpoint: https://anansi-haven.anansidata.workers.dev/mcp
+
+### apimodels.app MCP Server
+
+Official MCP server for apimodels.app: generate and edit images, create videos, synthesize speech and chat through one account with 150+ models; hosted Streamable HTTP with OAuth, or local stdio via npx.
+
+- URL: https://apimodels.app/docs/mcp
+- Language: TypeScript
+- Provider: apimodels.app
+- Official: yes
+- Tags: image-generation, ai-video, text-to-speech, remote, oauth
+- Category: AI, Agents, and Memory
+- Streamable HTTP endpoint: https://api.apimodels.app/mcp
 
 ### BotGathering
 

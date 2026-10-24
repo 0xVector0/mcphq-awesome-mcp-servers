@@ -6710,5 +6710,24 @@
     "endpoints": {
       "streamableHttp": "https://www.revid.ai/api/mcp"
     }
+  },
+  {
+    "name": "apimodels.app MCP Server",
+    "url": "https://apimodels.app/docs/mcp",
+    "description": "Official MCP server for apimodels.app: generate and edit images, create videos, synthesize speech and chat through one account with 150+ models; hosted Streamable HTTP with OAuth, or local stdio via npx.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "apimodels.app",
+    "tags": [
+      "image-generation",
+      "ai-video",
+      "text-to-speech",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.apimodels.app/mcp"
+    }
   }
 ]
