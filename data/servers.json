@@ -6923,5 +6923,23 @@
     "endpoints": {
       "streamableHttp": "https://agenttaskatlas.com/api/mcp"
     }
+  },
+  {
+    "name": "HutchDB MCP Server",
+    "url": "https://github.com/ExpeditedProjects/hutchdb",
+    "description": "Shared database for teams and AI agents: store, query, and update structured records over MCP.",
+    "category": "databases-and-storage",
+    "language": "TypeScript",
+    "provider": "HutchDB",
+    "tags": [
+      "database",
+      "postgres",
+      "structured-data",
+      "collaboration"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.hutchdb.com/api/mcp"
+    }
   }
 ]
