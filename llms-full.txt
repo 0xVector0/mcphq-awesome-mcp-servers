@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 386 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 389 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2866,6 +2866,17 @@ Hosted MCP server and live data layer for data-center site selection: mapped pow
 - Category: Data, Analytics, and BI
 - Streamable HTTP endpoint: https://dchub.cloud/mcp
 
+### Eigenheim Berlin Market Data
+
+Hosted, no-key, read-only MCP for Berlin real estate data: prices per m², rental yield, official land values, forecasts and listings.
+
+- URL: https://github.com/magicSEO/eigenheim-mcp
+- Language: TypeScript
+- Provider: Eigenheim & Invest
+- Official: yes
+- Tags: real-estate, berlin, market-data, remote
+- Category: Data, Analytics, and BI
+
 ### Global Database
 
 Hosted MCP server for company profiles, financials, ownership, officers, business contacts and KYB checks, with browser-based OAuth authentication.
@@ -3248,6 +3259,17 @@ Signed, timestamped observations of machine-readable source-rights declarations 
 - Category: Security and Identity
 - Streamable HTTP endpoint: https://api.getacqpath.com/mcp
 
+### ActSeal
+
+Issue and verify Ed25519-signed receipts for agent actions via MCP tools issue_receipt and verify_receipt. Best-effort signed log; free 100/day at actseal.xyz.
+
+- URL: https://github.com/arults/actseal-mcp
+- Language: TypeScript
+- Provider: ActSeal
+- Official: yes
+- Tags: receipts, ed25519, attestations, agents, audit
+- Category: Security and Identity
+
 ### Auth0 MCP Server
 
 Manage Auth0 tenants, applications, and user identity settings.
@@ -3361,6 +3383,18 @@ Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP disco
 - Official: no
 - Tags: trust, receipts, agents, security
 - Category: Security and Identity
+
+### OpenBait Lookalike Domains
+
+Hosted MCP server that lists lookalike domains of a brand's website and shows which resolve in DNS and what their front page shows.
+
+- URL: https://openbait.com/tools/typosquat-check
+- Language: Go
+- Provider: OpenBait
+- Official: yes
+- Tags: security, domains, typosquatting, remote
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://openbait.com/api/mcp
 
 ### Scalekit MCP Server
 
@@ -3674,13 +3708,13 @@ Search 210,000+ vetted startup candidates, review Clera's picks for your open ro
 
 ### Datacircle
 
-Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key.
+Datacircle lists all the GTM APIs. Our MCP server is open to anyone, with no key: add api.datacircle.dev/mcp to Claude, ChatGPT or Cursor.
 
-- URL: https://docs.datacircle.dev/mcp-server
+- URL: https://datacircle.dev/docs/mcp
 - Language: Python
 - Provider: Datacircle
 - Official: yes
-- Tags: b2b-data, linkedin, enrichment, remote, oauth
+- Tags: remote, no-auth, read-only, sales, pricing
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://api.datacircle.dev/mcp
 
