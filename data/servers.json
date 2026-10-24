@@ -4273,6 +4273,25 @@
     "official": true
   },
   {
+    "name": "PeekPanda",
+    "url": "https://github.com/fdarkaou/peekpanda-mcp",
+    "description": "Hosted competitor intelligence for iOS apps: see the Meta ads an app keeps paying for, the App Store searches it ranks for and the organic posts that went viral.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "PeekPanda",
+    "tags": [
+      "ios",
+      "app-store",
+      "aso",
+      "ads",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.peekpanda.com/mcp"
+    }
+  },
+  {
     "name": "Pinecone MCP Server",
     "url": "https://github.com/pinecone-io/pinecone-mcp",
     "description": "Manage Pinecone indexes and run semantic vector queries.",
