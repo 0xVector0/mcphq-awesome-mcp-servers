@@ -2912,7 +2912,7 @@
   },
   {
     "name": "Karma.Domains Expired Domains",
-    "url": "https://github.com/karma-domains/expired-domains-mcp",
+    "url": "https://karma.domains/en/expired-domains-mcp/",
     "description": "Hosted server to search expired, auction and backorder domains with SEO metrics, Wayback history and live WHOIS/DNS checks; OAuth or API key, Pro plan required.",
     "category": "browsers-search-and-web-automation",
     "language": "Other",

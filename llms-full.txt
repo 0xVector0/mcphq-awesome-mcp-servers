@@ -1129,7 +1129,7 @@ Hyperresearch is an AI deep research API. One question in, an adversarially revi
 
 Hosted server to search expired, auction and backorder domains with SEO metrics, Wayback history and live WHOIS/DNS checks; OAuth or API key, Pro plan required.
 
-- URL: https://github.com/karma-domains/expired-domains-mcp
+- URL: https://karma.domains/en/expired-domains-mcp/
 - Language: Other
 - Provider: Karma.Domains
 - Official: yes
