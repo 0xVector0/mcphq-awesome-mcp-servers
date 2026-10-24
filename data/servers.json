@@ -5950,6 +5950,25 @@
     }
   },
   {
+    "name": "PlaceCall",
+    "url": "https://github.com/voygr-tech/placecall",
+    "description": "VOYGR's hosted MCP server whose voice agent places real outbound calls to US businesses for reservations, appointments, inquiries and quotes, gets through phone menus and hold, and reports back the outcome, transcript and recording.",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "VOYGR",
+    "tags": [
+      "phone-calls",
+      "voice-agent",
+      "telephony",
+      "reservations",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.voygr.tech/mcp"
+    }
+  },
+  {
     "name": "TvojeLajky MCP",
     "url": "https://tvojelajky.cz/developers",
     "description": "Czech Instagram/TikTok follower, like and view service catalog, exact quotes, order status and paid CZK purchases; private operations use OAuth and customer-approved prepaid budgets.",

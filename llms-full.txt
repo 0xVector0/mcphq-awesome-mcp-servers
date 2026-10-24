@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 393 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 394 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -1950,6 +1950,18 @@ Hosted server for Pinto Notes, an open-source notes app for Mac, that lets an AI
 - Tags: notes, apple-notes, markdown, oauth
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://mcp.pintonotes.com
+
+### PlaceCall
+
+VOYGR's hosted MCP server whose voice agent places real outbound calls to US businesses for reservations, appointments, inquiries and quotes, gets through phone menus and hold, and reports back the outcome, transcript and recording.
+
+- URL: https://github.com/voygr-tech/placecall
+- Language: Python
+- Provider: VOYGR
+- Official: yes
+- Tags: phone-calls, voice-agent, telephony, reservations, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://api.voygr.tech/mcp
 
 ### Postbag MCP Server
 
