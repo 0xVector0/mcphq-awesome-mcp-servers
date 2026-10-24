@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 386 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 389 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -288,6 +288,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Datadog MCP Server](https://github.com/datadog-labs/mcp-server): Query metrics, logs, and monitors from Datadog via the official Datadog Labs MCP server. (Python, official)
 - [dbt MCP Server](https://github.com/dbt-labs/dbt-mcp): Run dbt models, tests, and documentation workflows via MCP. (Python, official)
 - [DC Hub](https://github.com/azmartone67/dchub-mcp-server): Hosted MCP server and live data layer for data-center site selection: mapped power, grid, gas and fiber assets, daily DCPI scores for 300+ markets and live grid feeds from the seven US ISOs; free tier needs no key. (JavaScript, official)
+- [Eigenheim Berlin Market Data](https://github.com/magicSEO/eigenheim-mcp): Hosted, no-key, read-only MCP for Berlin real estate data: prices per m², rental yield, official land values, forecasts and listings. (TypeScript, official)
 - [Global Database](https://api.globaldatabase.com/docs/v2/#mcp-server): Hosted MCP server for company profiles, financials, ownership, officers, business contacts and KYB checks, with browser-based OAuth authentication. (Other, official)
 - [Google GenAI Toolbox](https://github.com/googleapis/genai-toolbox): Connect agents to BigQuery, Cloud SQL, Spanner, and other Google data sources. (Go, official)
 - [Grafana MCP Server](https://github.com/grafana/mcp-grafana): Explore Grafana dashboards, alerts, and observability data. (Go, official)
@@ -325,6 +326,7 @@ Links under each category point at the upstream project, docs, or registry page.
 
 - [1Password MCP Server](https://github.com/CakeRepository/1Password-MCP): Community-maintained integration for accessing 1Password vault items in agent workflows. (Go)
 - [AcqPath](https://github.com/reflectme-source/acqpath-distribution): Signed, timestamped observations of machine-readable source-rights declarations for RAG, indexing, training, search, and AI input workflows. (Other, official)
+- [ActSeal](https://github.com/arults/actseal-mcp): Issue and verify Ed25519-signed receipts for agent actions via MCP tools issue_receipt and verify_receipt. Best-effort signed log; free 100/day at actseal.xyz. (TypeScript, official)
 - [Auth0 MCP Server](https://github.com/auth0/auth0-mcp-server): Manage Auth0 tenants, applications, and user identity settings. (TypeScript, official)
 - [Bridge Watch](https://github.com/LakeSky/bridge-watch-mcp): On-chain address intelligence for Base: seven read-only MCP tools for EVM address labels, transaction explanation, sybil clustering, alerts and CCTP transfer tracking, plus an anonymous free tier and x402 USDC pay-per-call. (TypeScript, official)
 - [Council of AI GSPC](https://github.com/CSOAI-ORG/councilof-ai): AI-governance measurement MCP server with free verification readers and x402-metered signed-evidence doors; remote endpoint at https://councilof.ai/mcp/. (TypeScript)
@@ -335,6 +337,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [HANRIA Mandate Check](https://hanria.ai): Free, advisory pre-action check: check_action returns permit, deny or escalate for a proposed agent action against a mandate, with the governing clause and an Ed25519-signed receipt, and validate_mandate checks a mandate for errors. (JavaScript, official)
 - [INAM Protocol](https://github.com/inamprotocol/inam-protocol/tree/main/mcp): Look up an AI agent's reputation built only from work both parties signed, and check its x402 payTo wallet before paying it; draft and countersign Execution Receipts. (TypeScript, official)
 - [Lodestar Stamp](https://lodestarstamp.com): Agent trust layer: a dated receipt on a named entity. REST lookup plus MCP discovery card. We attest; we do not approve the booking. (TypeScript)
+- [OpenBait Lookalike Domains](https://openbait.com/tools/typosquat-check): Hosted MCP server that lists lookalike domains of a brand's website and shows which resolve in DNS and what their front page shows. (Go, official)
 - [Scalekit MCP Server](https://github.com/scalekit-inc/scalekit-mcp-server): Manage Scalekit organizations, users, SSO connections, and MCP OAuth from an official hosted server. (TypeScript, official)
 - [Snyk MCP Server](https://github.com/snyk/studio-mcp): Scan dependencies and code for vulnerabilities with Snyk. (TypeScript, official)
 - [Sunglasses](https://github.com/sunglasses-dev/sunglasses): Scans text and files locally for prompt injection, credential leaks and data exfiltration; runs as a CLI, a Python API or an MCP server (python -m sunglasses.mcp). (Python)
@@ -364,7 +367,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [canli-validation-mcp](https://github.com/arhancanli/canli-validation-mcp): Checks whether a backtest result is real or just the luckiest of the variants tried: deflated Sharpe ratio, CSCV overfitting probability, data-snooping tests, lookahead checks and pipeline placebos. (JavaScript, official)
 - [Chord](https://github.com/getchordlabs/chord): Hosted MCP server with no API key for data: best-route DEX swap quotes and unsigned transactions on 7 EVM chains (Base, Monad, BNB Chain, Arbitrum and more), plus token boards, candles, wallet PnL and smart money. Non-custodial. (TypeScript, official)
 - [Clera](https://github.com/getclera/mcp): Search 210,000+ vetted startup candidates, review Clera's picks for your open roles, and request intros through a hosted OAuth MCP server. (TypeScript, official)
-- [Datacircle](https://docs.datacircle.dev/mcp-server): Datacircle is a data co-op. Query your favorite B2B data APIs through us. Same request, same price, no markup. Remote Streamable HTTP with OAuth 2.1 or an API key. (Python, official)
+- [Datacircle](https://datacircle.dev/docs/mcp): Datacircle lists all the GTM APIs. Our MCP server is open to anyone, with no key: add api.datacircle.dev/mcp to Claude, ChatGPT or Cursor. (Python, official)
 - [Elori](https://github.com/elori-debug/elori-mcp): Hosted sales pipeline, contacts and meeting workflows via approved Elori actions; OAuth and a verified Director or Autopilot account required. (TypeScript, official)
 - [Equibles](https://equibles.com/mcp): Hosted MCP server for US company fundamentals as reported in SEC filings, filing text, earnings-call transcripts, 13F holdings and insider trades, with OAuth or API-key access. (C#, official)
 - [Fincept MCP](https://github.com/Fincept-Corporation/fincept-mcp-docs): Hosted MCP server for Fincept Terminal: quotes, candles, option chains, fundamentals, economic data, SEC filings, news, backtests, paper trading and 15 quant engines, with OAuth sign-in. (Other, official)
