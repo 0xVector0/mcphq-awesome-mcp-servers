@@ -3247,6 +3247,20 @@
     }
   },
   {
+    "name": "mountable.io",
+    "url": "https://github.com/writeitai/mountable",
+    "description": "Manage persistent agent filesystems, issue mount tickets and revoke mount sessions through a local stdio server for the paid mountable.io service.",
+    "category": "cloud-and-infrastructure",
+    "language": "Go",
+    "provider": "mountable.io",
+    "tags": [
+      "filesystem",
+      "storage",
+      "stdio"
+    ],
+    "official": true
+  },
+  {
     "name": "APISign",
     "url": "https://apisign.io/docs/api/mcp",
     "description": "Hosted MCP server for legally binding e-signature: create contracts from Markdown templates or .docx, email them to signers, track views and signatures, and get signed PDFs with a SHA-256 seal and audit trail.",
