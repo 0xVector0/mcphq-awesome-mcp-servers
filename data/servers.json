@@ -6853,5 +6853,24 @@
     "endpoints": {
       "streamableHttp": "https://server.quibbly.co/mcp"
     }
+  },
+  {
+    "name": "/call-me",
+    "url": "https://github.com/radres/call-me",
+    "description": "Hosted MCP server that rings the user's iPhone, reads the agent's question aloud and returns the spoken answer as text; it can also text. Needs the /call-me iPhone app (paid subscription).",
+    "category": "communication-and-productivity",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "phone-call",
+      "voice",
+      "notifications",
+      "human-in-the-loop",
+      "ios"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://callmemcp.com/mcp"
+    }
   }
 ]
