@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 401 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 402 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -650,6 +650,18 @@ Open-source webhook inbox for AI agents to capture callbacks, inspect payloads, 
 - Tags: webhooks, testing, callbacks, agents
 - Category: Developer Tools and Code Intelligence
 - Streamable HTTP endpoint: https://openhook.dev/mcp
+
+### OverlayQA
+
+Runs WCAG accessibility (axe-core), color-contrast and design-token audits on any public URL and files the findings as QA issues in OverlayQA.
+
+- URL: https://github.com/OverlayQA/mcp
+- Language: TypeScript
+- Provider: OverlayQA
+- Official: yes
+- Tags: accessibility, wcag, design-qa, qa, issue-tracking
+- Category: Developer Tools and Code Intelligence
+- Streamable HTTP endpoint: https://api.overlayqa.com/mcp
 
 ### Postman MCP Server
 
