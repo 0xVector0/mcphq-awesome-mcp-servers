@@ -3670,6 +3670,20 @@
     }
   },
   {
+    "name": "Baizhi Cloud Browser (CapyBrowser)",
+    "url": "https://github.com/chaitin/baizhi-cloud-browser",
+    "description": "Manage cloud browser sessions, saved profiles, human handoff and downloads via hosted MCP; page actions require a CDP client, and a Baizhi API key and paid browser runtime apply.",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "Baizhi Cloud",
+    "tags": [
+      "browser",
+      "remote",
+      "session-management"
+    ],
+    "official": false
+  },
+  {
     "name": "Vulnerability Exposure",
     "url": "https://github.com/MRFrazer25/Vulnerability-Exposure-MCP",
     "description": "Checks public IPs, domains, CVE IDs and software versions for confirmed vulnerabilities using NVD version ranges, CISA KEV, EPSS, distro backports and Shodan, with all API keys optional.",
