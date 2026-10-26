@@ -3602,6 +3602,21 @@
     "official": false
   },
   {
+    "name": "installed-api",
+    "url": "https://github.com/ajwann/installed-api",
+    "description": "Answers API questions from the packages installed in the project: Python signatures, docstrings and source from the project's interpreter, TypeScript declarations from node_modules, and installed versions.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "python",
+      "typescript",
+      "api-docs",
+      "claude-code"
+    ],
+    "official": false
+  },
+  {
     "name": "Cooper Email",
     "url": "https://cooperemail.com/docs/mcp",
     "description": "Gives AI agents their own email inbox: send, read, reply, and wait for the next message or a sign-up code over a hosted MCP server. API key or OAuth; free tier.",
