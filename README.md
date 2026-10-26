@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-445-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-446-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -47,7 +47,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (43)
 - [Filesystems and Documents](#filesystems-and-documents) (17)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (23)
-- [Communication and Productivity](#communication-and-productivity) (54)
+- [Communication and Productivity](#communication-and-productivity) (55)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (52)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (46)
 - [Legal and Court Data](#legal-and-court-data) (5)
@@ -465,6 +465,8 @@ Integrate chat, email, calendars, and team collaboration tools.
   `gmail` `email` `google`
 - **[Google Calendar MCP Server](https://github.com/nspady/google-calendar-mcp)** `TypeScript` — View and manage Google Calendar events and schedules.  
   `calendar` `scheduling` `google`
+- **[Hail](https://hail.so/mcp)** `Official` `Python` — Give your AI assistant a phone number and an email inbox to handle calls, texts, and email.  
+  `voice` `sms` `email` `remote`
 - **[HeyReagent](https://heyreagent.com/linkedin-mcp?utm_source=mcphq&utm_medium=listing)** `JavaScript` — Hosted LinkedIn MCP server for your own LinkedIn account: read the inbox, send messages and connection invitations, search people, and read profiles and posts; OAuth or API key, free plan available. Not affiliated with LinkedIn.  
   `linkedin` `sales` `remote` `oauth`
 - **[KanbanMCP](https://kanbanmcp.com/docs/connect)** `Official` `Other` — Hosted kanban board with a remote MCP server where AI agents claim cards, check in while they work, and hand off with notes.  
