@@ -3773,6 +3773,25 @@
     "official": false
   },
   {
+    "name": "WebExtract",
+    "url": "https://github.com/nyx464664816-stack/webextract",
+    "description": "Turns a public URL into structured JSON (product, tables, metadata) plus clean Markdown. 20 free calls a day per caller IP, then x402 USDC or credits. Sandbox benchmark, 10 pages: markdown 38/40, extract 40/40 (webextract.dev/benchmark).",
+    "category": "browsers-search-and-web-automation",
+    "language": "Other",
+    "provider": "TAINCHENG, L.L.C.",
+    "tags": [
+      "web-scraping",
+      "markdown",
+      "structured-data",
+      "x402",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.webextract.dev/mcp"
+    }
+  },
+  {
     "name": "Best Electrician Jobs",
     "url": "https://github.com/854Labs/best-electrician-jobs",
     "description": "Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.",
