@@ -3721,6 +3721,24 @@
     }
   },
   {
+    "name": "HireFerry",
+    "url": "https://github.com/TokenNotIncluded/hireferry",
+    "description": "Self-hostable talent matching platform with read-only MCP search for public jobs and opt-in résumés, plus authenticated tools for hiring workflows.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Rust",
+    "provider": "TokenNotIncluded",
+    "tags": [
+      "jobs",
+      "recruiting",
+      "resumes",
+      "self-hosted"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://hireferry.lmm.best/mcp/public"
+    }
+  },
+  {
     "name": "Hail",
     "url": "https://hail.so/mcp",
     "description": "Give your AI assistant a phone number and an email inbox to handle calls, texts, and email.",
