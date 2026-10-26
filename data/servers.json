@@ -3534,6 +3534,25 @@
     }
   },
   {
+    "name": "isGenAI",
+    "url": "https://isgenai.com/developers/mcp",
+    "description": "Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels.",
+    "category": "filesystems-and-documents",
+    "language": "TypeScript",
+    "provider": "isGenAI",
+    "tags": [
+      "c2pa",
+      "provenance",
+      "metadata",
+      "ai-detection",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://isgenai.com/mcp"
+    }
+  },
+  {
     "name": "MCP Everything",
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
     "description": "Reference server exposing prompts, resources, and tools for protocol testing.",
