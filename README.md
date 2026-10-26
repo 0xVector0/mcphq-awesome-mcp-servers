@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-453-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-454-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -50,7 +50,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Communication and Productivity](#communication-and-productivity) (55)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (52)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (47)
-- [Legal and Court Data](#legal-and-court-data) (5)
+- [Legal and Court Data](#legal-and-court-data) (6)
 - [Security and Identity](#security-and-identity) (25)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (87)
 - [Utilities and Examples](#utilities-and-examples) (18)
@@ -768,6 +768,8 @@ Court records, legal research, case search, and judicial workflow data.
   `legal` `court-data` `remote` `oauth`
 - **[ForeclosureListings](https://foreclosurelistings.fyi)** `TypeScript` — Look up US foreclosure resources by city and state: county sale schedules, notice postings, HUD-approved counselors and legal aid, each fact citing its public source.  
   `foreclosure` `public-records` `legal-aid` `housing`
+- **[Lintelly HR Deutschland](https://github.com/NicksAdvisory/lintelly-hr-deutschland)** `Official` `TypeScript` — German employment law for small companies: 38 read-only tools for notice periods, employer costs, sick pay, maternity protection and contract clauses, each answer with calculation and official source; remote server without sign-in.  
+  `legal` `hr` `employment-law` `germany` `remote`
 - **[US Code MCP](https://github.com/lrehmann/uscode-mcp)** `TypeScript` — Read-only U.S. Code search, section retrieval, and title browsing with citations linked to uscode.ecfr.io and published OLRC release metadata; independent OLRC corpus mirror, not a government service.  
   `legal` `statutes` `us-code` `citations`
 

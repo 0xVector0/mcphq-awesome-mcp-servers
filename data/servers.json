@@ -3788,6 +3788,25 @@
     "official": true
   },
   {
+    "name": "Lintelly HR Deutschland",
+    "url": "https://github.com/NicksAdvisory/lintelly-hr-deutschland",
+    "description": "German employment law for small companies: 38 read-only tools for notice periods, employer costs, sick pay, maternity protection and contract clauses, each answer with calculation and official source; remote server without sign-in.",
+    "category": "legal-and-court-data",
+    "language": "TypeScript",
+    "provider": "Lintelly",
+    "tags": [
+      "legal",
+      "hr",
+      "employment-law",
+      "germany",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://hr.lintelly.com/mcp"
+    }
+  },
+  {
     "name": "WebExtract",
     "url": "https://github.com/nyx464664816-stack/webextract",
     "description": "Turns a public URL into structured JSON (product, tables, metadata) plus clean Markdown. 20 free calls a day per caller IP, then x402 USDC or credits. Sandbox benchmark, 10 pages: markdown 38/40, extract 40/40 (webextract.dev/benchmark).",
