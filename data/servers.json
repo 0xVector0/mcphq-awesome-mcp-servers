@@ -3758,6 +3758,21 @@
     }
   },
   {
+    "name": "crawlerpeek",
+    "url": "https://github.com/crawlerpeek/crawlerpeek",
+    "description": "Check whether AI crawlers such as GPTBot, ClaudeBot and PerplexityBot can access a URL: robots.txt rules per bot (RFC 9309) plus the live HTTP status fetched with each bot's user agent.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "Community",
+    "tags": [
+      "robots-txt",
+      "ai-crawlers",
+      "seo",
+      "web"
+    ],
+    "official": false
+  },
+  {
     "name": "Best Electrician Jobs",
     "url": "https://github.com/854Labs/best-electrician-jobs",
     "description": "Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.",
