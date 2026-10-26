@@ -3739,6 +3739,24 @@
     }
   },
   {
+    "name": "HEY Research Lab",
+    "url": "https://github.com/hey-research-lab/hey-research-open",
+    "description": "Read-only research on Robinhood Chain projects and tokens: whether a team is still shipping, what it shipped and what changed, each claim with its public source.",
+    "category": "data-analytics-and-bi",
+    "language": "TypeScript",
+    "provider": "HEY Research Lab",
+    "tags": [
+      "blockchain",
+      "robinhood-chain",
+      "research",
+      "open-data"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://heyresearch.xyz/mcp"
+    }
+  },
+  {
     "name": "Hail",
     "url": "https://hail.so/mcp",
     "description": "Give your AI assistant a phone number and an email inbox to handle calls, texts, and email.",
