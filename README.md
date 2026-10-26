@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-454-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-457-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -42,9 +42,9 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 ## Catalog
 
 - [Official and Reference Servers](#official-and-reference) (11)
-- [Databases and Storage](#databases-and-storage) (16)
-- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (51)
-- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (45)
+- [Databases and Storage](#databases-and-storage) (17)
+- [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (52)
+- [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (46)
 - [Filesystems and Documents](#filesystems-and-documents) (18)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (23)
 - [Communication and Productivity](#communication-and-productivity) (55)
@@ -104,6 +104,8 @@ Query, manage, and explore databases, vector stores, and data warehouses.
   `analytics` `sql` `olap`
 - **[Neon MCP Server](https://github.com/neondatabase/mcp-server-neon)** `Official` `TypeScript` — Manage Neon Postgres databases, branches, and SQL queries via MCP.  
   `postgres` `serverless` `sql`
+- **[pgwarden](https://github.com/B0yko/pgwarden)** `Python` — Self-hosted PostgreSQL MCP gateway with OIDC login, per-user database roles, read-only queries, human-approved writes, and audit logging.  
+  `postgresql` `oidc` `access-control` `approvals` `audit`
 - **[Pinecone MCP Server](https://github.com/pinecone-io/pinecone-mcp)** `Official` `TypeScript` — Manage Pinecone indexes and run semantic vector queries.  
   `vector` `search` `rag`
 - **[PlanetScale MCP Server](https://planetscale.com/docs/connect/mcp)** `Official` `TypeScript` — Manage PlanetScale MySQL databases, branches, and schema changes.  
@@ -207,6 +209,8 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `api` `testing` `http`
 - **[REA](https://github.com/morluto/rea)** `TypeScript` — Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies.  
   `reverse-engineering` `binary-analysis` `devtools`
+- **[RoboParts](https://github.com/lm203688/roboparts)** `Official` `JavaScript` — Vendor-neutral robot hardware compatibility checker across 868 entities with three-state verdicts and ISO 9409-1 flange anchor.  
+  `robotics` `hardware` `compatibility` `iot` `industrial` `three-state` `iso-9409-1` `3d-printing`
 - **[SanctionsKit Developer MCP](https://www.sanctionskit.com/resources/mcp)** `Official` `Other` — Public SanctionsKit documentation, API schemas, and request validation, with authenticated synthetic sandbox tools for building sanctions screening integrations.  
   `api` `documentation` `sanctions` `sandbox`
 - **[Semgrep MCP Server](https://github.com/semgrep/semgrep/tree/develop/cli/src/semgrep/mcp)** `Official` `Python` — Run static analysis and security scans on codebases via Semgrep.  
@@ -268,6 +272,8 @@ Browse the web, scrape content, search, and automate browser interactions.
   `chrome` `browser-automation` `local`
 - **[Browserbase MCP Server](https://github.com/browserbase/mcp-server-browserbase)** `Official` `TypeScript` — Cloud browser automation for navigation, scraping, and form filling.  
   `browser` `cloud` `automation`
+- **[BusyBee](https://github.com/danfeistar/busybee-mcp)** `Python` — Hosted remote MCP server for public social media data across TikTok, Instagram, YouTube, X, Douyin and Xiaohongshu: search posts and creators, read post detail, pull comments and comment insights, and read trending topics.  
+  `social-media` `tiktok` `instagram` `youtube` `comments` `remote-mcp`
 - **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `Official` `TypeScript` — Control and inspect Chrome through DevTools protocol for debugging and automation.  
   `chrome` `devtools` `debugging`
 - **[CloakBrowser MCP](https://github.com/swimmwatch/cloakbrowser-mcp)** `TypeScript` — Runs upstream Playwright MCP with CloakBrowser Chromium, preserving its browser tools and adding bridge diagnostics.  

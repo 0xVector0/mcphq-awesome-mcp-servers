@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Hand-curated, link-checked catalog of 454 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
+> Hand-curated, link-checked catalog of 457 Model Context Protocol (MCP) servers in 13 categories. Each entry has a URL, description, category, language, provider, tags, and an official flag. The website, JSON API, and these files are generated from the same data.
 
 MCP is an open protocol that lets AI applications connect to external tools and data through a standardized client-server interface. This catalog lists well-scoped, source-available servers for databases, developer tools, browsers, cloud services, and more. Entries are reviewed for a clear purpose, a public source, and recent or official maintenance. Links are checked on every pull request and weekly.
 
@@ -36,6 +36,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [MongoDB MCP Server](https://github.com/mongodb-js/mongodb-mcp-server): Query and manage MongoDB databases and collections from AI clients. (TypeScript, official)
 - [MotherDuck MCP Server](https://github.com/motherduckdb/mcp-server-motherduck): Run analytical SQL queries against local DuckDB files and MotherDuck cloud databases. (Python, official)
 - [Neon MCP Server](https://github.com/neondatabase/mcp-server-neon): Manage Neon Postgres databases, branches, and SQL queries via MCP. (TypeScript, official)
+- [pgwarden](https://github.com/B0yko/pgwarden): Self-hosted PostgreSQL MCP gateway with OIDC login, per-user database roles, read-only queries, human-approved writes, and audit logging. (Python)
 - [Pinecone MCP Server](https://github.com/pinecone-io/pinecone-mcp): Manage Pinecone indexes and run semantic vector queries. (TypeScript, official)
 - [PlanetScale MCP Server](https://planetscale.com/docs/connect/mcp): Manage PlanetScale MySQL databases, branches, and schema changes. (TypeScript, official)
 - [Prisma MCP Server](https://www.prisma.io/docs/ai/tools/mcp-server): Manage Prisma Postgres databases, Prisma Compute deployments, and Object Storage from AI tools through a remote MCP server. (Other, official)
@@ -87,6 +88,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [OverlayQA](https://github.com/OverlayQA/mcp): Runs WCAG accessibility (axe-core), color-contrast and design-token audits on any public URL and files the findings as QA issues in OverlayQA. (TypeScript, official)
 - [Postman MCP Server](https://github.com/postmanlabs/postman-mcp-server): Explore and run Postman collections and API workflows from AI clients. (TypeScript, official)
 - [REA](https://github.com/morluto/rea): Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies. (TypeScript)
+- [RoboParts](https://github.com/lm203688/roboparts): Vendor-neutral robot hardware compatibility checker across 868 entities with three-state verdicts and ISO 9409-1 flange anchor. (JavaScript, official)
 - [SanctionsKit Developer MCP](https://www.sanctionskit.com/resources/mcp): Public SanctionsKit documentation, API schemas, and request validation, with authenticated synthetic sandbox tools for building sanctions screening integrations. (Other, official)
 - [Semgrep MCP Server](https://github.com/semgrep/semgrep/tree/develop/cli/src/semgrep/mcp): Run static analysis and security scans on codebases via Semgrep. (Python, official)
 - [Sentry MCP Server](https://docs.sentry.io/product/sentry-mcp/): Investigate errors, releases, and performance issues in Sentry. (TypeScript, official)
@@ -117,6 +119,7 @@ Links under each category point at the upstream project, docs, or registry page.
 - [Browser Use MCP Server](https://docs.browser-use.com/cloud/guides/mcp-server): Hosted MCP server that runs browser agent tasks in Browser Use stealth cloud browsers and returns results, sessions, and saved browser profiles. (Python, official)
 - [browser-buddy](https://github.com/hahahahahahahahah6/browser-buddy): MCP server plus Chrome extension that lets coding agents read the user's real, logged-in browser pages. (Python)
 - [Browserbase MCP Server](https://github.com/browserbase/mcp-server-browserbase): Cloud browser automation for navigation, scraping, and form filling. (TypeScript, official)
+- [BusyBee](https://github.com/danfeistar/busybee-mcp): Hosted remote MCP server for public social media data across TikTok, Instagram, YouTube, X, Douyin and Xiaohongshu: search posts and creators, read post detail, pull comments and comment insights, and read trending topics. (Python)
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp): Control and inspect Chrome through DevTools protocol for debugging and automation. (TypeScript, official)
 - [CloakBrowser MCP](https://github.com/swimmwatch/cloakbrowser-mcp): Runs upstream Playwright MCP with CloakBrowser Chromium, preserving its browser tools and adding bridge diagnostics. (TypeScript)
 - [Cluefinch MCP](https://github.com/cluefinch/mcp-server): Local-first MCP server for AI-agent web research with search, incremental page reading, link navigation, and multi-source evidence collection. (Python, official)
