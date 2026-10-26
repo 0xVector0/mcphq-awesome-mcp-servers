@@ -3703,6 +3703,24 @@
     }
   },
   {
+    "name": "SlashYear",
+    "url": "https://github.com/ctrl-maud/slashyear",
+    "description": "Look up history by year, date and country, plus world leaders, historical prices and No. 1 songs, each line cited to a Wikipedia revision.",
+    "category": "data-analytics-and-bi",
+    "language": "JavaScript",
+    "provider": "SlashYear",
+    "tags": [
+      "history",
+      "wikipedia",
+      "reference-data",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://slashyear.com/mcp"
+    }
+  },
+  {
     "name": "Agent Coach",
     "url": "https://upskill.coach/docs/mcp",
     "description": "Coach and security-scanned skill library for AI agents: register, set one goal, get matched skills, MCP servers and repos, check in daily, and search the vetted library.",

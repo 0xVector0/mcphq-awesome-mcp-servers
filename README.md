@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-444-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-445-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -49,7 +49,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (23)
 - [Communication and Productivity](#communication-and-productivity) (54)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (52)
-- [Data, Analytics, and BI](#data-analytics-and-bi) (45)
+- [Data, Analytics, and BI](#data-analytics-and-bi) (46)
 - [Legal and Court Data](#legal-and-court-data) (5)
 - [Security and Identity](#security-and-identity) (24)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (85)
@@ -733,6 +733,8 @@ Analytics platforms, monitoring, and business intelligence tooling.
   `session-replay` `product-analytics` `funnels` `oauth`
 - **[Serpel](https://serpel.app/developers/mcp)** `Official` `TypeScript` — Hosted SEO and AI-visibility MCP server for Google rankings, site audits, keyword research, Search Console opportunities, and AI citation monitoring.  
   `seo` `analytics` `ai-visibility` `remote`
+- **[SlashYear](https://github.com/ctrl-maud/slashyear)** `Official` `JavaScript` — Look up history by year, date and country, plus world leaders, historical prices and No. 1 songs, each line cited to a Wikipedia revision.  
+  `history` `wikipedia` `reference-data` `remote`
 - **[Sourcey](https://sourcey.com/mcp)** `Official` `TypeScript` — Search startup credits and offers, and inspect evidence-backed Agent Readiness report cards in Sourcey's public record.  
   `startup-credits` `company-data` `agent-readiness` `evidence`
 - **[Sports Odds API (BetRivers, Unibet & 22 more books)](https://apify.com/publicrecords/sports-odds-api)** `JavaScript` — Live odds from 24 Kambi-powered sportsbooks in one call, including BetRivers (12 US states + Ontario), Unibet, Paf, Svenska Spel and ATG, with every book's price and the best price per outcome; pay per call.  
