@@ -3636,6 +3636,22 @@
     }
   },
   {
+    "name": "PushNotif",
+    "url": "https://github.com/AarsyDesign/pushnotif-mcp",
+    "description": "Hosted remote and stdio MCP server with 24 tools for Web Push (VAPID), Android (FCM), iOS (APNs), In-App Popups, Social Proof Toasts, and Transactional Email OTP.",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "PushNotif",
+    "tags": [
+      "notifications",
+      "push-notifications",
+      "email",
+      "web-push",
+      "remote"
+    ],
+    "official": true
+  },
+  {
     "name": "ForeclosureListings",
     "url": "https://foreclosurelistings.fyi",
     "description": "Look up US foreclosure resources by city and state: county sale schedules, notice postings, HUD-approved counselors and legal aid, each fact citing its public source.",
