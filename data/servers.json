@@ -3739,6 +3739,25 @@
     }
   },
   {
+    "name": "BotsRated",
+    "url": "https://github.com/botsrated/botsrated",
+    "description": "Checks a paid x402 seller or remote MCP server before an agent pays it: latest unpaid probe, listed vs quoted price and payTo, with signed receipts; free preflight and search, paid lookups via x402 on Base.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "BotsRated",
+    "tags": [
+      "x402",
+      "trust",
+      "monitoring",
+      "payments",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://botsrated.com/mcp"
+    }
+  },
+  {
     "name": "HEY Research Lab",
     "url": "https://github.com/hey-research-lab/hey-research-open",
     "description": "Read-only research on Robinhood Chain projects and tokens: whether a team is still shipping, what it shipped and what changed, each claim with its public source.",

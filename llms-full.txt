@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 448 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 449 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -3769,6 +3769,18 @@ Read-only crypto safety checks for Base, Ethereum and BNB Chain (tx explainer, a
 - Official: no
 - Tags: crypto, security, x402, base, remote
 - Category: Security and Identity
+
+### BotsRated
+
+Checks a paid x402 seller or remote MCP server before an agent pays it: latest unpaid probe, listed vs quoted price and payTo, with signed receipts; free preflight and search, paid lookups via x402 on Base.
+
+- URL: https://github.com/botsrated/botsrated
+- Language: TypeScript
+- Provider: BotsRated
+- Official: yes
+- Tags: x402, trust, monitoring, payments, remote
+- Category: Security and Identity
+- Streamable HTTP endpoint: https://botsrated.com/mcp
 
 ### Bridge Watch
 

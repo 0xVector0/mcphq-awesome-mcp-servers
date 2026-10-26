@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-448-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-449-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -51,7 +51,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [AI, Agents, and Memory](#ai-agents-and-memory) (52)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (47)
 - [Legal and Court Data](#legal-and-court-data) (5)
-- [Security and Identity](#security-and-identity) (24)
+- [Security and Identity](#security-and-identity) (25)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (86)
 - [Utilities and Examples](#utilities-and-examples) (18)
 
@@ -781,6 +781,8 @@ Secrets, vulnerability scanning, authentication, and security operations.
   `auth` `identity` `oauth`
 - **[Automaton Onchain Tools](https://github.com/povrouyre-wq/automaton-onchain-tools)** `JavaScript` — Read-only crypto safety checks for Base, Ethereum and BNB Chain (tx explainer, approvals, contract risk, URL phishing, token deep scan with honeypot simulation), pay-per-call via x402 USDC; remote, no key.  
   `crypto` `security` `x402` `base` `remote`
+- **[BotsRated](https://github.com/botsrated/botsrated)** `Official` `TypeScript` — Checks a paid x402 seller or remote MCP server before an agent pays it: latest unpaid probe, listed vs quoted price and payTo, with signed receipts; free preflight and search, paid lookups via x402 on Base.  
+  `x402` `trust` `monitoring` `payments` `remote`
 - **[Bridge Watch](https://github.com/LakeSky/bridge-watch-mcp)** `Official` `TypeScript` — On-chain address intelligence for Base: seven read-only MCP tools for EVM address labels, transaction explanation, sybil clustering, alerts and CCTP transfer tracking, plus an anonymous free tier and x402 USDC pay-per-call.  
   `web3` `base` `address-labels` `risk` `x402`
 - **[Council of AI GSPC](https://github.com/CSOAI-ORG/councilof-ai)** `TypeScript` — AI-governance measurement MCP server with free verification readers and x402-metered signed-evidence doors; remote endpoint at https://councilof.ai/mcp/.  
