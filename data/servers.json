@@ -3534,6 +3534,25 @@
     }
   },
   {
+    "name": "ContactLint",
+    "url": "https://github.com/zksyncer/contactlint",
+    "description": "Validate email syntax, DNS/MX over DoH, disposable domains, role addresses and typos, plus E.164 phone numbers via HTTP API and remote MCP, with no SMTP probing.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "ContactLint",
+    "tags": [
+      "email-validation",
+      "phone-validation",
+      "data-validation",
+      "crm",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://contactlint.com/mcp"
+    }
+  },
+  {
     "name": "isGenAI",
     "url": "https://isgenai.com/developers/mcp",
     "description": "Read-only tools that report recorded evidence of AI use in files and text, such as C2PA Content Credentials, IPTC AI-generated labels and saved generator prompts, without guessing from pixels.",
