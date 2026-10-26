@@ -3618,6 +3618,24 @@
     "official": false
   },
   {
+    "name": "AgentSandboxes",
+    "url": "https://agentsandboxes.fyi",
+    "description": "Search an index of cloud sandbox providers for AI agents: isolation, cold start, persistence, GPU support and pricing, each fact linked to its source.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "Beeloud",
+    "tags": [
+      "sandboxes",
+      "agents",
+      "developer-tools",
+      "directory"
+    ],
+    "official": false,
+    "endpoints": {
+      "streamableHttp": "https://agentsandboxes.fyi/mcp"
+    }
+  },
+  {
     "name": "installed-api",
     "url": "https://github.com/ajwann/installed-api",
     "description": "Answers API questions from the packages installed in the project: Python signatures, docstrings and source from the project's interpreter, TypeScript declarations from node_modules, and installed versions.",
