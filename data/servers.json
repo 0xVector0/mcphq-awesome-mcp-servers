@@ -3652,6 +3652,24 @@
     "official": true
   },
   {
+    "name": "Solana Pulse",
+    "url": "https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway",
+    "description": "Read-only pre-sign checks for Solana agents: dry-runs a transaction on mainnet, confirms it matches the requested transfer or swap, and rates token risk; 25 free calls per tool a day, then x402 in USDC.",
+    "category": "security-and-identity",
+    "language": "TypeScript",
+    "provider": "Solana Pulse",
+    "tags": [
+      "solana",
+      "crypto",
+      "security",
+      "x402"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://solana-pulse-gateway-1021990235790.us-central1.run.app/mcp"
+    }
+  },
+  {
     "name": "ExtensionDash",
     "url": "https://extensiondash.com/",
     "description": "Query Chrome and Firefox extension users, ratings, and search-rank data through ExtensionDash's hosted MCP server with OAuth authentication.",
