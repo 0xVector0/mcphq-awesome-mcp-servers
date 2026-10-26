@@ -3670,6 +3670,22 @@
     }
   },
   {
+    "name": "Vulnerability Exposure",
+    "url": "https://github.com/MRFrazer25/Vulnerability-Exposure-MCP",
+    "description": "Checks public IPs, domains, CVE IDs and software versions for confirmed vulnerabilities using NVD version ranges, CISA KEV, EPSS, distro backports and Shodan, with all API keys optional.",
+    "category": "security-and-identity",
+    "language": "Python",
+    "provider": "Community",
+    "tags": [
+      "vulnerabilities",
+      "cve",
+      "threat-intelligence",
+      "osint",
+      "nvd"
+    ],
+    "official": false
+  },
+  {
     "name": "ExtensionDash",
     "url": "https://extensiondash.com/",
     "description": "Query Chrome and Firefox extension users, ratings, and search-rank data through ExtensionDash's hosted MCP server with OAuth authentication.",
