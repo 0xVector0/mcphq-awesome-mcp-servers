@@ -3572,6 +3572,21 @@
     }
   },
   {
+    "name": "Outbound OS",
+    "url": "https://github.com/RecepioHQ/outbound-os",
+    "description": "Local MCP tools for evidence-gated email outreach with default-disabled live sending",
+    "category": "communication-and-productivity",
+    "language": "JavaScript",
+    "provider": "RecepioHQ",
+    "tags": [
+      "email",
+      "ai-agents",
+      "outreach",
+      "approval"
+    ],
+    "official": false
+  },
+  {
     "name": "toolkb-mcp",
     "url": "https://github.com/jack-reson8/toolkb-mcp",
     "description": "Local server that returns YouTube transcripts and playlists, web pages as Markdown and App Store reviews, with no API key or account.",
