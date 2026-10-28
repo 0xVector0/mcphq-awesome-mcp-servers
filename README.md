@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-491-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-494-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -45,14 +45,14 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Databases and Storage](#databases-and-storage) (17)
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (57)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (51)
-- [Filesystems and Documents](#filesystems-and-documents) (18)
+- [Filesystems and Documents](#filesystems-and-documents) (19)
 - [Cloud and Infrastructure](#cloud-and-infrastructure) (25)
 - [Communication and Productivity](#communication-and-productivity) (57)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (58)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (50)
 - [Legal and Court Data](#legal-and-court-data) (7)
 - [Security and Identity](#security-and-identity) (26)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (94)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (96)
 - [Utilities and Examples](#utilities-and-examples) (20)
 
 <a id="official-and-reference"></a>
@@ -389,6 +389,8 @@ Read and write files, convert documents, and connect to knowledge bases.
   `pdf` `documents` `extraction`
 - **[PDFtoMarkdown.ai](https://github.com/happywpco/pdftomarkdown-mcp)** `Official` `JavaScript` — Convert local PDF, DOCX, PPTX, XLSX, image, HTML and EPUB files into structured Markdown with headings, tables and optional OCR via the PDFtoMarkdown.ai API; free pages, then pay-per-page credits.  
   `pdf` `documents` `markdown` `conversion` `ocr`
+- **[PennyOCR](https://github.com/imiraoui/pennyocr-mcp)** `Official` `TypeScript` — Convert PDFs and images to Markdown or text, estimate document-processing costs, and check credit balances with an API key and hard spend caps.  
+  `ocr` `pdf` `documents` `remote`
 - **[ReadGZH](https://github.com/sweesama/readgzh)** `TypeScript` — Read public WeChat Official Account articles as Markdown for AI agents over remote MCP and REST.  
   `wechat` `markdown` `documents` `reader`
 - **[Readwise MCP Server](https://github.com/readwiseio/readwise-mcp)** `Official` `TypeScript` — Search highlights and reading notes from Readwise.  
@@ -1018,6 +1020,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `travel` `car-rental` `marketplace`
 - **[QuickBooks MCP Server](https://github.com/intuit/quickbooks-online-mcp-server)** `Official` `TypeScript` — Manage QuickBooks accounting records and financial reports.  
   `accounting` `finance` `bookkeeping`
+- **[RentReboot](https://github.com/imiraoui/rentreboot-mcp)** `Official` `Other` — Search NYC apartments and renter guides, explore rent data, and access personal alerts and saved searches with scoped OAuth; website alert plans are separate.  
+  `housing` `apartments` `nyc` `remote`
 - **[RestoSignals](https://github.com/paperandbeyond23-gif/restosignals-mcp)** `Official` `Python` — Finds US restaurants and bars 1-6 months before they open by fusing public liquor-license, food-permit and new-business filings into scored venues with owner contact.  
   `lead-generation` `restaurants` `sales` `public-records` `remote`
 - **[SaaSCity](https://github.com/nyyhao/saascity-mcp)** `Official` `JavaScript` — Audit a homepage before launch, pick launch directories from 1,600+ by DR, link type and price, and list the product on SaaSCity.  
@@ -1072,6 +1076,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `crypto` `trading` `defi` `onchain` `ai-agents`
 - **[Whimbrel MedTech Analyst](https://github.com/WhimbrelResearch/whimbrel-mcp)** `Official` `JavaScript` — Research up-and-coming US medtech companies from NIH and NSF grants, federal contracts, FDA clearances and Breakthrough marketing authorizations; company research links every line to its source.  
   `medtech` `fda` `company-research` `oauth` `remote`
+- **[Wine Labs](https://github.com/imiraoui/winelabs-mcp)** `Official` `Other` — Fine-wine matching, market prices, auctions, merchant offers, and portfolio intelligence through a hosted MCP server; browser OAuth and account plans or credits apply.  
+  `wine` `pricing` `auctions` `remote`
 - **[Worklittle Jobs](https://github.com/worklittle/jobs-mcp)** `Other` — Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.  
   `jobs` `recruiting` `remote` `oauth`
 - **[Zaptu](https://github.com/TommyTap11/zaptu)** `Official` `Python` — Sends a person's consented US home-service contact request (service, ZIP, name, phone) to independent local providers; for plumbing it returns a number the person dials, and Zaptu does not perform the work.  
