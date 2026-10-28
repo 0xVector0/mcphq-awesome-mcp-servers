@@ -537,6 +537,24 @@
     "official": true
   },
   {
+    "name": "AccountsOS",
+    "url": "https://github.com/thriveventurelabs/accountsos-mcp-server",
+    "description": "AI accounting MCP server: query your live AccountsOS books (balances, transactions, VAT, deadlines, invoices, documents) from any MCP client.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Thrive Venture Labs",
+    "tags": [
+      "accounting",
+      "vat",
+      "bookkeeping",
+      "invoices"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://accounts-os.com/api/mcp/plugin"
+    }
+  },
+  {
     "name": "Anansi Haven",
     "url": "https://github.com/kburrus64-max/anansi-haven",
     "description": "Remote MCP server (also A2A and HTTP) giving agents a persistent identity, versioned key-value memory that survives restarts, client-side encrypted storage, an agent directory and a job board.",
