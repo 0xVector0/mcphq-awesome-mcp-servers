@@ -4487,6 +4487,25 @@
     "official": false
   },
   {
+    "name": "Docsy",
+    "url": "https://github.com/getremcp/docsy-plugin",
+    "description": "Retrieve version-specific developer documentation and original source links through five read-only remote MCP tools.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "getremcp",
+    "tags": [
+      "documentation",
+      "developer-tools",
+      "versions",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://docsy.remcp.site/mcp/registry"
+    }
+  },
+  {
     "name": "MCP Server Templates",
     "url": "https://github.com/Data-Everything/mcp-server-templates",
     "description": "Unified MCP platform connecting many apps behind one interface.",
