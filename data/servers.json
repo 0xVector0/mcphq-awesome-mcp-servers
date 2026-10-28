@@ -5060,6 +5060,25 @@
     }
   },
   {
+    "name": "Crevio",
+    "url": "https://crevio.co/docs/developer/mcp",
+    "description": "Delegate work to an AI agent that runs your small business (products, orders, customers, email, sites), or run scripts against the Crevio API and 3,000+ connected apps.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Ruby",
+    "provider": "Crevio",
+    "tags": [
+      "small-business",
+      "ecommerce",
+      "agents",
+      "automation",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.crevio.co/mcp"
+    }
+  },
+  {
     "name": "NeverApply",
     "url": "https://github.com/kasovy/neverapply-mcp",
     "description": "AI job-search agent: search and match jobs, tailor resumes, answer screening questions, and apply with your approval.",
