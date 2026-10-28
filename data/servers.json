@@ -4634,6 +4634,25 @@
     "official": false
   },
   {
+    "name": "RecordHTML",
+    "url": "https://recordhtml.com/mcp",
+    "description": "Record public web pages or HTML5 creatives (banners, ads, animations) to MP4, WebM or GIF in a real browser and get a signed video link; remote Streamable HTTP with OAuth 2.1 or an API key.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "RecordHTML",
+    "tags": [
+      "video",
+      "screen-recording",
+      "html5-ads",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.recordhtml.com"
+    }
+  },
+  {
     "name": "Panda Greetings",
     "url": "https://www.pandagreetings.com/ai-assistants",
     "description": "Finds ready-made greeting card designs for an occasion with your message placed inside, each linking to its page to order it printed and mailed in the US; free hosted server, no sign-in.",
