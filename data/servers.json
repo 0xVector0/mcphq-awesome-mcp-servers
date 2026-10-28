@@ -5669,6 +5669,24 @@
     "official": true
   },
   {
+    "name": "Cockatoo",
+    "url": "https://cockatoo.com.au/docs/",
+    "description": "Create, edit and publish hosted business websites with owner-approved access.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "Cockatoo",
+    "tags": [
+      "websites",
+      "hosting",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.cockatoo.com.au/mcp"
+    }
+  },
+  {
     "name": "Feminiq Rides",
     "url": "https://www.feminiqrides.nl/llms.txt",
     "description": "Remote server for an Amsterdam chauffeur service with a female driver option: list routes, tours and cars, get a price quote and send a ride request.",
