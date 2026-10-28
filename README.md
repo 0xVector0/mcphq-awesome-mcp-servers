@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-520-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-521-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -53,7 +53,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Legal and Court Data](#legal-and-court-data) (7)
 - [Security and Identity](#security-and-identity) (27)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (106)
-- [Utilities and Examples](#utilities-and-examples) (20)
+- [Utilities and Examples](#utilities-and-examples) (21)
 
 <a id="official-and-reference"></a>
 
@@ -1165,6 +1165,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `genealogy` `family-history` `archives` `gedcom` `evidence`
 - **[Google Maps MCP Server](https://github.com/modelcontextprotocol/servers-archived/tree/main/src/google-maps)** `Python` — Geocoding, directions, and place search via Google Maps.  
   `maps` `location` `geo`
+- **[Ignav Flights](https://github.com/gusgordon/ignav-skill)** `Official` `Python` — Search live flight prices, compare departure dates, resolve airports, and get booking links.  
+  `travel` `flights` `booking-links` `remote` `oauth`
 - **[MCP Server Starter](https://github.com/modelcontextprotocol/create-typescript-server)** `Official` `TypeScript` — Official TypeScript scaffold for creating new MCP servers.  
   `template` `typescript` `starter`
 - **[MCP Server Templates](https://github.com/Data-Everything/mcp-server-templates)** `TypeScript` — Unified MCP platform connecting many apps behind one interface.  

@@ -1181,6 +1181,25 @@
     }
   },
   {
+    "name": "Ignav Flights",
+    "url": "https://github.com/gusgordon/ignav-skill",
+    "description": "Search live flight prices, compare departure dates, resolve airports, and get booking links.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "Ignav",
+    "tags": [
+      "travel",
+      "flights",
+      "booking-links",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://ignav.com/mcp"
+    }
+  },
+  {
     "name": "BOIM (보임)",
     "url": "https://github.com/kikiyop1101/boim-mcp",
     "description": "Hosted read-only MCP server for finding Korean businesses (2.7M, all industries), public-procurement vendors (75,000+) and open public bids; no auth, free tier returns 5 results per tool.",
