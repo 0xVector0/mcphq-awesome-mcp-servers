@@ -7697,6 +7697,24 @@
     "official": true
   },
   {
+    "name": "InternetVitals",
+    "url": "https://github.com/internetvitals/mcp-server",
+    "description": "Real-time status, recent incidents and an overall health score for 41 internet backbone services such as AWS, Cloudflare, GitHub and OpenAI.",
+    "category": "cloud-and-infrastructure",
+    "language": "TypeScript",
+    "provider": "InternetVitals",
+    "tags": [
+      "status",
+      "uptime",
+      "incidents",
+      "monitoring"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://internetvitals.com/mcp"
+    }
+  },
+  {
     "name": "Zovo Invoice Generator",
     "url": "https://github.com/theluckystrike/mcp-invoice-generator",
     "description": "Invoice creation, line items, totals, and PDF-ready billing documents over MCP; also available as a hosted Streamable HTTP endpoint.",
