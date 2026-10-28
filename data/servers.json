@@ -5658,6 +5658,25 @@
     }
   },
   {
+    "name": "foto foto",
+    "url": "https://github.com/nternet-company/fotofoto-mcp",
+    "description": "Turn your photos or a public iCloud Shared Album into a printed hardcover photo book, and compare photo book prices across services.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "foto foto",
+    "tags": [
+      "photos",
+      "photo-book",
+      "printing",
+      "ecommerce",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://fotofoto.app/mcp"
+    }
+  },
+  {
     "name": "Pulumi MCP Server",
     "url": "https://www.pulumi.com/docs/ai/mcp-server/",
     "description": "Infrastructure as code operations with Pulumi stacks and resources.",
