@@ -6578,6 +6578,25 @@
     "official": false
   },
   {
+    "name": "ReMCP",
+    "url": "https://github.com/getremcp/remcp",
+    "description": "Securely access computers explicitly paired to your account through a hosted OAuth MCP connection, including state-changing file, terminal, browser, and desktop tools.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "TypeScript",
+    "provider": "getremcp",
+    "tags": [
+      "computer-use",
+      "desktop-automation",
+      "terminal",
+      "browser",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://remcp.site/mcp"
+    }
+  },
+  {
     "name": "Supabase MCP Server",
     "url": "https://github.com/supabase-community/supabase-mcp",
     "description": "Community-maintained integration for Supabase projects, tables, and auth through MCP tools.",
