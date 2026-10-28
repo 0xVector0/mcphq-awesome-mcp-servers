@@ -2639,6 +2639,25 @@
     }
   },
   {
+    "name": "Sitekick CMS",
+    "url": "https://docs.sitekick.ai/working-with-our-ai-site-editor/mcp-editing",
+    "description": "Plan and improve WordPress websites with generation, previews, and browser-approved publishing; requires an eligible account and a registered OAuth client.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Sitekick",
+    "tags": [
+      "wordpress",
+      "cms",
+      "websites",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.sitekick.ai/mcp"
+    }
+  },
+  {
     "name": "Graphiti MCP Server",
     "url": "https://github.com/getzep/graphiti",
     "description": "Temporal knowledge graphs for agent memory and context building.",

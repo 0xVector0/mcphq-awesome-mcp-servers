@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 499 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 500 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -2578,6 +2578,18 @@ Business email on your own domain for people and AI agents: read, search, send a
 - Tags: email, business-email, calendar, newsletters, remote
 - Category: Communication and Productivity
 - Streamable HTTP endpoint: https://shipmail.to/api/mcp
+
+### Sitekick CMS
+
+Plan and improve WordPress websites with generation, previews, and browser-approved publishing; requires an eligible account and a registered OAuth client.
+
+- URL: https://docs.sitekick.ai/working-with-our-ai-site-editor/mcp-editing
+- Language: TypeScript
+- Provider: Sitekick
+- Official: yes
+- Tags: wordpress, cms, websites, oauth, remote
+- Category: Communication and Productivity
+- Streamable HTTP endpoint: https://mcp.sitekick.ai/mcp
 
 ### Slack MCP Server
 
