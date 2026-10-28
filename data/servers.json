@@ -5372,6 +5372,24 @@
     "official": true
   },
   {
+    "name": "Landed MCP",
+    "url": "https://github.com/landedjobs/landed-mcp",
+    "description": "Search AI and tech jobs ranked against a role brief, read a job's application form fields, and fetch free interview prep through a hosted MCP endpoint.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Landed",
+    "tags": [
+      "jobs",
+      "job-search",
+      "interview-prep",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.landed.jobs/mcp"
+    }
+  },
+  {
     "name": "Playwright MCP",
     "url": "https://github.com/microsoft/playwright-mcp",
     "description": "Official Microsoft Playwright server for browser automation via accessibility snapshots.",
