@@ -210,7 +210,7 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
 - **[REA](https://github.com/morluto/rea)** `TypeScript` — Local CLI and MCP server for agent-assisted reverse engineering of native binaries, JavaScript/Electron apps, and .NET assemblies.  
   `reverse-engineering` `binary-analysis` `devtools`
 - **[RoboParts](https://github.com/lm203688/roboparts)** `Official` `JavaScript` — Vendor-neutral robot hardware compatibility checker across 868 entities with three-state verdicts and ISO 9409-1 flange anchor.  
-  `robotics` `hardware` `compatibility` `iot` `industrial` `three-state` `iso-9409-1` `3d-printing`
+  `robotics` `hardware` `compatibility` `industrial` `iso-9409-1`
 - **[SanctionsKit Developer MCP](https://www.sanctionskit.com/resources/mcp)** `Official` `Other` — Public SanctionsKit documentation, API schemas, and request validation, with authenticated synthetic sandbox tools for building sanctions screening integrations.  
   `api` `documentation` `sanctions` `sandbox`
 - **[Semgrep MCP Server](https://github.com/semgrep/semgrep/tree/develop/cli/src/semgrep/mcp)** `Official` `Python` — Run static analysis and security scans on codebases via Semgrep.  
@@ -275,7 +275,7 @@ Browse the web, scrape content, search, and automate browser interactions.
 - **[Browserbase MCP Server](https://github.com/browserbase/mcp-server-browserbase)** `Official` `TypeScript` — Cloud browser automation for navigation, scraping, and form filling.  
   `browser` `cloud` `automation`
 - **[BusyBee](https://github.com/danfeistar/busybee-mcp)** `Python` — Hosted remote MCP server for public social media data across TikTok, Instagram, YouTube, X, Douyin and Xiaohongshu: search posts and creators, read post detail, pull comments and comment insights, and read trending topics.  
-  `social-media` `tiktok` `instagram` `youtube` `comments` `remote-mcp`
+  `social-media` `remote` `tiktok` `instagram` `youtube`
 - **[Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)** `Official` `TypeScript` — Control and inspect Chrome through DevTools protocol for debugging and automation.  
   `chrome` `devtools` `debugging`
 - **[CloakBrowser MCP](https://github.com/swimmwatch/cloakbrowser-mcp)** `TypeScript` — Runs upstream Playwright MCP with CloakBrowser Chromium, preserving its browser tools and adding bridge diagnostics.  
