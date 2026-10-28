@@ -3566,6 +3566,24 @@
     "official": false
   },
   {
+    "name": "Recall Kitchen",
+    "url": "https://github.com/Recall-Kitchen/rk-mcp",
+    "description": "Hosted MCP server that searches government product recall notices from CPSC, FDA, USDA, NHTSA and Health Canada by keyword, UPC, product name or vehicle, and fetches a full notice; free API key or anonymous x402 pay-per-call.",
+    "category": "data-analytics-and-bi",
+    "language": "Go",
+    "provider": "Recall Kitchen",
+    "tags": [
+      "recalls",
+      "product-safety",
+      "government-data",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.recallkitchen.com/mcp"
+    }
+  },
+  {
     "name": "CloakBrowser MCP",
     "url": "https://github.com/swimmwatch/cloakbrowser-mcp",
     "description": "Runs upstream Playwright MCP with CloakBrowser Chromium, preserving its browser tools and adding bridge diagnostics.",
