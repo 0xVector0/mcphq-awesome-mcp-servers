@@ -879,6 +879,25 @@
     "official": true
   },
   {
+    "name": "MaxiBestOf",
+    "url": "https://github.com/luminous8/maxibestof-mcp",
+    "description": "Search website designs, UI sections, fonts, palettes, and design profiles. Requires MaxiBestOf Pro.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "MaxiBestOf",
+    "tags": [
+      "design",
+      "websites",
+      "fonts",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://maxibestof.one/mcp-server"
+    }
+  },
+  {
     "name": "BacklinkGenie",
     "url": "https://backlinkgenie.com/mcp/",
     "description": "Hosted link-building outreach agent: find posts where your product fits, approve pitches, read editor replies and track earned backlinks; OAuth or API key.",
@@ -5810,6 +5829,25 @@
     "official": true,
     "endpoints": {
       "streamableHttp": "https://api.restosignals.com/mcp"
+    }
+  },
+  {
+    "name": "Nicelydone",
+    "url": "https://github.com/nicelydoneapp/mcp",
+    "description": "Search web app screens, UI elements, and user flows for design research. Requires Nicelydone Premium.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Other",
+    "provider": "Nicelydone",
+    "tags": [
+      "design",
+      "ui",
+      "ux",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.nicelydone.club/mcp"
     }
   },
   {
