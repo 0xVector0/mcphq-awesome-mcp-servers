@@ -879,6 +879,25 @@
     "official": true
   },
   {
+    "name": "imageat",
+    "url": "https://github.com/incendies/imageat-mcp",
+    "description": "AI image generation and editing, video, and 20+ image-edit tools. Run `npx @imageat/mcp` with an API key, or use the hosted Streamable HTTP server with OAuth. Credits per generation.",
+    "category": "ai-agents-and-memory",
+    "language": "Other",
+    "provider": "imageat",
+    "tags": [
+      "image-generation",
+      "video-generation",
+      "image-editing",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.imageat.com/mcp"
+    }
+  },
+  {
     "name": "MaxiBestOf",
     "url": "https://github.com/luminous8/maxibestof-mcp",
     "description": "Search website designs, UI sections, fonts, palettes, and design profiles. Requires MaxiBestOf Pro.",
