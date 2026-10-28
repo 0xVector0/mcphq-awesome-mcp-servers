@@ -3421,6 +3421,25 @@
     }
   },
   {
+    "name": "Shipmail",
+    "url": "https://github.com/shipmail-to/shipmail-mcp",
+    "description": "Business email on your own domain for people and AI agents: read, search, send and reply, and manage domains, mailboxes, inbox rules, calendars, newsletters and webhooks.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Shipmail",
+    "tags": [
+      "email",
+      "business-email",
+      "calendar",
+      "newsletters",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://shipmail.to/api/mcp"
+    }
+  },
+  {
     "name": "Manifold MCP",
     "url": "https://www.manifoldmcp.com",
     "description": "An MCP for marketers that gives agents tools for SEO, AEO, socials and ads data, from keywords, backlinks and Search Console to AI answer visibility, ad libraries and social platforms, with a generous free tier.",
