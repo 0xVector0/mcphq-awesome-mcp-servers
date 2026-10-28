@@ -7042,6 +7042,25 @@
     "official": false
   },
   {
+    "name": "AI Agents Listing",
+    "url": "https://github.com/nyyhao/aiagentslisting-mcp",
+    "description": "Search, browse and compare a directory of AI agents, MCP servers and agent skills; find alternatives and see what is trending.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "AI Agents Listing",
+    "tags": [
+      "directory",
+      "discovery",
+      "mcp",
+      "agents",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://aiagentslisting.com/api/mcp"
+    }
+  },
+  {
     "name": "Vault MCP Server",
     "url": "https://github.com/hashicorp/vault-mcp-server",
     "description": "Read secrets and manage HashiCorp Vault policies via MCP.",
