@@ -2263,6 +2263,24 @@
     "official": false
   },
   {
+    "name": "Buy-Box",
+    "url": "https://buybox.agentconsult.ai",
+    "description": "Saves your buying criteria for homes, cars or any category (budget, must-haves, dealbreakers) so AI agents load them before they search and rank listings against them.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Other",
+    "provider": "Agentic Consulting LLC",
+    "tags": [
+      "shopping",
+      "preferences",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://buybox.agentconsult.ai/mcp"
+    }
+  },
+  {
     "name": "FaviconDL",
     "url": "https://github.com/sweesama/favicondl.com",
     "description": "Extract and download website favicons via MCP; wraps the free no-key FaviconDL API.",
