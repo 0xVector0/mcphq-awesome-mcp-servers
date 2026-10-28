@@ -3601,6 +3601,24 @@
     }
   },
   {
+    "name": "Jet Cab AMS",
+    "url": "https://www.jetcabams.nl/llms.txt",
+    "description": "Remote server for an Amsterdam chauffeur service: list Schiphol transfer routes, tours and cars, get an exact price quote and send a booking request.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Jet Cab AMS",
+    "tags": [
+      "travel",
+      "taxi",
+      "booking",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.jetcabams.nl/mcp"
+    }
+  },
+  {
     "name": "Shipmail",
     "url": "https://github.com/shipmail-to/shipmail-mcp",
     "description": "Business email on your own domain for people and AI agents: read, search, send and reply, and manage domains, mailboxes, inbox rules, calendars, newsletters and webhooks.",
@@ -5649,6 +5667,24 @@
       "oauth"
     ],
     "official": true
+  },
+  {
+    "name": "Feminiq Rides",
+    "url": "https://www.feminiqrides.nl/llms.txt",
+    "description": "Remote server for an Amsterdam chauffeur service with a female driver option: list routes, tours and cars, get a price quote and send a ride request.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "JavaScript",
+    "provider": "Feminiq Rides",
+    "tags": [
+      "travel",
+      "taxi",
+      "booking",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://www.feminiqrides.nl/mcp"
+    }
   },
   {
     "name": "Pinto Notes",
