@@ -935,6 +935,25 @@
     }
   },
   {
+    "name": "Checkout Page",
+    "url": "https://checkoutpage.com/mcp?utm_source=mcphq&utm_medium=listing",
+    "description": "Create and manage checkout pages, events, forms, products, coupons, customers, payments and subscriptions on Checkout Page, a checkout platform on Stripe Connect, over remote Streamable HTTP with OAuth.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "Checkout Page",
+    "tags": [
+      "payments",
+      "ecommerce",
+      "events",
+      "stripe",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.checkoutpage.com"
+    }
+  },
+  {
     "name": "Baizhi Cloud Agent Toolkit",
     "url": "https://github.com/chaitin/baizhi-agent-toolkit",
     "description": "Hosted web search, page reading and structured extraction over Streamable HTTP; the hosted backend source is closed, this repository contains MIT configs, docs and tests, and access needs your own API key and may consume credits.",
