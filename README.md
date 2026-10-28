@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-484-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-485-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -53,7 +53,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Legal and Court Data](#legal-and-court-data) (7)
 - [Security and Identity](#security-and-identity) (26)
 - [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (91)
-- [Utilities and Examples](#utilities-and-examples) (19)
+- [Utilities and Examples](#utilities-and-examples) (20)
 
 <a id="official-and-reference"></a>
 
@@ -1079,6 +1079,8 @@ Helpful utilities, templates, and starter servers for learning MCP.
   `discovery` `search` `registry`
 - **[AgentFEM MCP](https://github.com/haoming-luo/agentfem-mcp)** `Official` `Python` — Create, validate and run finite-element projects and inspect numerical results through local stdio tools, with a separately installed compatible AgentFEM scientific runtime.  
   `finite-element` `simulation` `scientific-computing` `local`
+- **[Airport Lounge List MCP Server](https://github.com/Airport-Lounge-List/mcp-server)** `Official` `Ruby` — Hosted server for searching 8,500+ airport lounges and checking access by card or membership.  
+  `travel` `airports` `lounges`
 - **[Anyquery](https://github.com/julien040/anyquery)** `Go` — Query 40+ apps and databases with SQL from a single local binary.  
   `sql` `integration` `local`
 - **[CareClinic Health Tracker](https://github.com/tandemloop/careclinic_mcp)** `Other` — Track symptoms, mood, medications, and wellness patterns through a remote OAuth MCP server.  

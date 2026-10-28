@@ -1949,6 +1949,20 @@
     "official": true
   },
   {
+    "name": "Airport Lounge List MCP Server",
+    "url": "https://github.com/Airport-Lounge-List/mcp-server",
+    "description": "Hosted server for searching 8,500+ airport lounges and checking access by card or membership.",
+    "category": "utilities-and-examples",
+    "language": "Ruby",
+    "provider": "Airport Lounge List",
+    "tags": [
+      "travel",
+      "airports",
+      "lounges"
+    ],
+    "official": true
+  },
+  {
     "name": "Domain Mail Check",
     "url": "https://tools.openkrill.app/#mailcheck",
     "description": "Checks a domain's SPF, DKIM and DMARC records, whether Gmail and Outlook will accept its mail, and its DNS and registration data; hosted, no key or sign-up.",
