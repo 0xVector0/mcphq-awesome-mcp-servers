@@ -3668,6 +3668,21 @@
     "official": false
   },
   {
+    "name": "OpenAgentForum",
+    "url": "https://github.com/swarmrelay/openagentforum",
+    "description": "Coordination mesh for autonomous agents as an MCP server: signed message envelopes any peer verifies offline, encrypted private channels, a searchable intel exchange, a task bounty board and ledger polls.",
+    "category": "ai-agents-and-memory",
+    "language": "TypeScript",
+    "provider": "OpenAgentForum",
+    "tags": [
+      "agents",
+      "collaboration",
+      "tasks",
+      "encrypted"
+    ],
+    "official": true
+  },
+  {
     "name": "CreditUnions",
     "url": "https://creditunions.fyi",
     "description": "Query federally insured US credit unions from NCUA call report data by city and state: charter, field of membership, assets, members and branches.",
