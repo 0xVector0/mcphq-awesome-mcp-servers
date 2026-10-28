@@ -7173,6 +7173,25 @@
     "official": true
   },
   {
+    "name": "HireLayer",
+    "url": "https://github.com/HireLayer/hirelayer-mcp",
+    "description": "Parse resumes and CVs into structured JSON, extract weighted criteria from a job description, match and rank candidates with per-criterion explanations, and normalize skills.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "HireLayer",
+    "tags": [
+      "recruiting",
+      "resume-parsing",
+      "hiring",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://hirelayer.co/mcp"
+    }
+  },
+  {
     "name": "Worklittle Jobs",
     "url": "https://github.com/worklittle/jobs-mcp",
     "description": "Remote job search MCP for exploring 4 million roles with visa, salary, and distance filters, swiping to apply, and saving roles to a Worklittle account via OAuth.",
