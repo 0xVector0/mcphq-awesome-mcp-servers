@@ -1494,6 +1494,20 @@
     }
   },
   {
+    "name": "CloudGPU MCP Server",
+    "url": "https://github.com/mrhy7176/cloudgpu-mcp",
+    "description": "Rent per-minute cloud GPUs from an MCP client: browse available GPUs, launch an instance, run a job, download results, and destroy it on CloudGPU.",
+    "category": "cloud-and-infrastructure",
+    "language": "JavaScript",
+    "provider": "CloudGPU",
+    "tags": [
+      "gpu",
+      "cloud",
+      "ai-infrastructure"
+    ],
+    "official": true
+  },
+  {
     "name": "CloudBurn",
     "url": "https://github.com/towardsthecloud/cloudburn",
     "description": "Read-only AWS cost analysis for Terraform, CloudFormation, and live AWS accounts through a local stdio MCP server.",

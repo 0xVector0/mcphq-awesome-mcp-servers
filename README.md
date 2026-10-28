@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-511-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-512-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -46,7 +46,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Developer Tools and Code Intelligence](#developer-tools-and-code-intelligence) (58)
 - [Browsers, Search, and Web Automation](#browsers-search-and-web-automation) (51)
 - [Filesystems and Documents](#filesystems-and-documents) (19)
-- [Cloud and Infrastructure](#cloud-and-infrastructure) (26)
+- [Cloud and Infrastructure](#cloud-and-infrastructure) (27)
 - [Communication and Productivity](#communication-and-productivity) (60)
 - [AI, Agents, and Memory](#ai-agents-and-memory) (60)
 - [Data, Analytics, and BI](#data-analytics-and-bi) (53)
@@ -424,6 +424,8 @@ Manage cloud resources, deploy services, and operate infrastructure.
   `aws` `finops` `terraform` `cloudformation` `read-only`
 - **[Cloudflare MCP Server](https://github.com/cloudflare/mcp-server-cloudflare)** `Official` `TypeScript` — Manage Workers, KV, R2, and Cloudflare platform resources.  
   `cloudflare` `edge` `workers`
+- **[CloudGPU MCP Server](https://github.com/mrhy7176/cloudgpu-mcp)** `Official` `JavaScript` — Rent per-minute cloud GPUs from an MCP client: browse available GPUs, launch an instance, run a job, download results, and destroy it on CloudGPU.  
+  `gpu` `cloud` `ai-infrastructure`
 - **[Cockatoo](https://cockatoo.com.au/docs/)** `Official` `TypeScript` — Create, edit and publish hosted business websites with owner-approved access.  
   `websites` `hosting` `oauth` `remote`
 - **[deed.page](https://deed.page/docs)** `Official` `TypeScript` — Publishes HTML or a static folder to a permanent HTTPS URL with no account; update, version, restore and delete sites through a remote MCP server.  
