@@ -1723,6 +1723,25 @@
     "official": true
   },
   {
+    "name": "Phasoric",
+    "url": "https://developers.phasoric.com/mcp-client-setup",
+    "description": "Search, read, and safely update Markdown notes in explicitly connected Phasoric knowledge vaults.",
+    "category": "ai-agents-and-memory",
+    "language": "JavaScript",
+    "provider": "Phasoric",
+    "tags": [
+      "memory",
+      "knowledge",
+      "markdown",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://phasoric.com/api/mcp"
+    }
+  },
+  {
     "name": "CrowdStrike MCP Server",
     "url": "https://github.com/CrowdStrike/falcon-mcp",
     "description": "Query CrowdStrike Falcon detections and endpoint security data.",
