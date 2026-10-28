@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-528-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-529-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (55)
 - [Legal and Court Data](#legal-and-court-data) (7)
 - [Security and Identity](#security-and-identity) (27)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (109)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (110)
 - [Utilities and Examples](#utilities-and-examples) (21)
 
 <a id="official-and-reference"></a>
@@ -175,8 +175,6 @@ Repositories, CI/CD, observability, and coding workflows for software teams.
   `android` `mobile` `testing` `automation`
 - **[Flare](https://flareapp.io/docs/flare/general/our-mcp-server)** `Official` `PHP` — Investigate, resolve, snooze and assign errors, search logs, and find slow routes, queries and jobs in Flare, Spatie's error tracking and performance monitoring for Laravel and PHP.  
   `error-tracking` `observability` `laravel` `php` `oauth`
-- **[FastMCP Forge](https://github.com/johannschiffer/fastmcp-forge)** `Python` — Deterministic CLI and code generator for scaffolding high-throughput production FastMCP servers with Pydantic validation and lifecycle management.  
-  `fastmcp` `developer-tools` `code-generation` `scaffolding`
 - **[GitHub MCP Server](https://github.com/github/github-mcp-server)** `Official` `Go` — Official GitHub integration for repos, issues, pull requests, and code search.  
   `github` `git` `ci-cd`
 - **[GitLab MCP Server](https://docs.gitlab.com/user/gitlab_duo/model_context_protocol/mcp_server/)** `Official` `Ruby` — GitLab Duo MCP server for merge requests, issues, and project management.  
@@ -306,8 +304,6 @@ Browse the web, scrape content, search, and automate browser interactions.
   `social` `content` `research` `tiktok`
 - **[crawlbrulee mcp server](https://github.com/crawlbrulee/crawlbrulee-mcp)** `Official` `TypeScript` — Scrape any page into clean markdown, screenshots, metadata and links, or map a site's urls, with an EU-hosted web scraping api.  
   `scraping` `markdown` `screenshots` `eu`
-- **[CrawlEngine MCP](https://github.com/johannschiffer/crawlengine-mcp)** `Python` — Resilient anti-bot web scraping and dynamic DOM extraction for AI coding agents with clean token-optimized markdown conversion. Available on PyPI (`uvx crawlengine-mcp`).  
-  `web-scraping` `anti-bot` `browser-automation` `markdown`
 - **[crawlerpeek](https://github.com/crawlerpeek/crawlerpeek)** `TypeScript` — Check whether AI crawlers such as GPTBot, ClaudeBot and PerplexityBot can access a URL: robots.txt rules per bot (RFC 9309) plus the live HTTP status fetched with each bot's user agent.  
   `robots-txt` `ai-crawlers` `seo` `web`
 - **[CurlShot](https://curlshot.com/docs)** `Official` `TypeScript` — Hosted screenshot API over remote MCP: renders any public URL as PNG, JPEG, WebP, PDF or a scrolling video, full page or at a device preset. API key as Bearer token; free plan 100 screenshots/month, no card.  
@@ -1070,6 +1066,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `product-launch` `startups` `directory` `marketing` `remote`
 - **[NotFair](https://github.com/nowork-studio/NotFair)** `TypeScript` — Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads, connecting to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP.  
   `seo` `google-ads` `meta-ads` `marketing`
+- **[Orizn Visa](https://github.com/MattJeff/orizn-mcp-server)** `Official` `TypeScript` — Visa and entry requirements for 49,750 passport-destination pairs (199 passports, 250 destinations) in 15 languages; two tools work without a key, a free API key unlocks transit rules, comparisons and source URLs.  
+  `visa` `travel` `immigration` `remote`
 - **[OutreachGenie](https://github.com/Outreachgenie/outreachgenie-linkedin-mcp)** `Official` `TypeScript` — Manage saved prospects, lists, outreach flows and campaign drafts in an OutreachGenie workspace over hosted MCP; requires an account and OAuth or a bearer API key, with broader permissions for API keys.  
   `linkedin` `crm` `outreach` `remote` `oauth`
 - **[Panda Greetings](https://www.pandagreetings.com/ai-assistants)** `Official` `JavaScript` — Finds ready-made greeting card designs for an occasion with your message placed inside, each linking to its page to order it printed and mailed in the US; free hosted server, no sign-in.  
