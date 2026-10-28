@@ -4854,6 +4854,25 @@
     }
   },
   {
+    "name": "NeverApply",
+    "url": "https://github.com/kasovy/neverapply-mcp",
+    "description": "AI job-search agent: search and match jobs, tailor resumes, answer screening questions, and apply with your approval.",
+    "category": "communication-and-productivity",
+    "language": "Other",
+    "provider": "NeverApply",
+    "tags": [
+      "jobs",
+      "career",
+      "resume",
+      "oauth",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://neverapply.co/mcp"
+    }
+  },
+  {
     "name": "Neither MCP",
     "url": "https://github.com/stonianua/neither-mcp",
     "description": "Selected project notes and documents for Cursor and Claude Desktop via local stdio MCP, with related retrieval and source evidence.",
