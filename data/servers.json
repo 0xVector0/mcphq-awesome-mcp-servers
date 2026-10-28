@@ -3431,6 +3431,25 @@
     "official": true
   },
   {
+    "name": "NebenkostenPro",
+    "url": "https://github.com/julianfaalk/nebenkostenpro-mcp",
+    "description": "Free remote MCP server for German utility costs (Nebenkosten): property tax rates for 10,304 municipalities, costs of 400 cities, housing benefit levels, deadlines and links to check or create a utility bill.",
+    "category": "data-analytics-and-bi",
+    "language": "Go",
+    "provider": "NebenkostenPro",
+    "tags": [
+      "germany",
+      "real-estate",
+      "utility-costs",
+      "property-tax",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://nebenkostenpro.de/mcp"
+    }
+  },
+  {
     "name": "LinkedNav",
     "url": "https://www.linkednav.com/mcp?utm_source=mcphq&utm_medium=listing",
     "description": "Hosted MCP server for your own LinkedNav account: find leads from LinkedIn buying signals, launch outreach campaigns, write messages, and read and answer replies; OAuth or API key, free 7-day trial. Not affiliated with LinkedIn.",
