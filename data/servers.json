@@ -7446,6 +7446,25 @@
     }
   },
   {
+    "name": "Noonlaunch",
+    "url": "https://github.com/mukund1158/noonlaunch-mcp",
+    "description": "Launch a product on Noonlaunch, search its product directory and weekly winners, and find 333 startup launch directories; hosted, no API key or account needed to connect.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "PHP",
+    "provider": "Noonlaunch",
+    "tags": [
+      "product-launch",
+      "startups",
+      "directory",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://noonlaunch.com/mcp"
+    }
+  },
+  {
     "name": "Unblockd",
     "url": "https://unblockd.ai/setup.md",
     "description": "Project plans for teams that answer to a sponsor: read goals and deliverables, update tasks, attach proof, flag blockers, log risks, and draft decision asks with options. A person on the team sends each ask.",
