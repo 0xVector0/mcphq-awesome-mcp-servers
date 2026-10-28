@@ -4381,6 +4381,21 @@
     "official": true
   },
   {
+    "name": "AgentFEM MCP",
+    "url": "https://github.com/haoming-luo/agentfem-mcp",
+    "description": "Create, validate and run finite-element projects and inspect numerical results through local stdio tools, with a separately installed compatible AgentFEM scientific runtime.",
+    "category": "utilities-and-examples",
+    "language": "Python",
+    "provider": "AgentFEM",
+    "tags": [
+      "finite-element",
+      "simulation",
+      "scientific-computing",
+      "local"
+    ],
+    "official": true
+  },
+  {
     "name": "MCP Registry",
     "url": "https://github.com/modelcontextprotocol/registry",
     "description": "Official MCP registry service and API for discovering publicly available MCP servers.",
