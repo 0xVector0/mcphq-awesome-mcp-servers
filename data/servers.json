@@ -4297,6 +4297,24 @@
     "official": true
   },
   {
+    "name": "LifeVerse Product Discovery",
+    "url": "https://github.com/lifeversegu/lifeverse-mcp",
+    "description": "Discover, search, inspect, and recommend eleven public LifeVerse AI products and interactive experiences through four read-only tools.",
+    "category": "browsers-search-and-web-automation",
+    "language": "TypeScript",
+    "provider": "LifeVerse",
+    "tags": [
+      "product-discovery",
+      "recommendations",
+      "read-only",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://lifeverse.gufreelancer.com/api/mcp"
+    }
+  },
+  {
     "name": "MCP Fetch",
     "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
     "description": "Fetch web content and convert HTML to markdown for LLM consumption.",
