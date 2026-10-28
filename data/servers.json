@@ -7894,6 +7894,25 @@
     }
   },
   {
+    "name": "CrakSEO Search Console MCP",
+    "url": "https://docs.crakseo.com/mcp-servers/search-console",
+    "description": "Free remote MCP access to owned-site Google Search Console and Bing Webmaster data; CrakSEO authentication and authorization for the user's own properties required.",
+    "category": "data-analytics-and-bi",
+    "language": "Other",
+    "provider": "CrakSEO",
+    "tags": [
+      "analytics",
+      "seo",
+      "search-console",
+      "bing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://crakseo.com/mcp/search-console"
+    }
+  },
+  {
     "name": "Campfire SMS",
     "url": "https://github.com/campfiresms/campfire-mcp",
     "description": "Two-way SMS bridge for coding agents: the agent texts you when it finishes or is blocked and reads your SMS replies.",
