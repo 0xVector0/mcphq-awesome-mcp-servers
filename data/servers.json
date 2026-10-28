@@ -6317,6 +6317,24 @@
     }
   },
   {
+    "name": "Pallyy",
+    "url": "https://pallyy.com/docs/api/mcp",
+    "description": "Schedules social media posts from an AI agent: lists social sets, creates and updates draft or scheduled posts, imports media and pins calendar notes across ten networks.",
+    "category": "communication-and-productivity",
+    "language": "TypeScript",
+    "provider": "Pallyy",
+    "tags": [
+      "social-media",
+      "scheduling",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://app.pallyy.com/mcp"
+    }
+  },
+  {
     "name": "Salesforce MCP Server",
     "url": "https://github.com/salesforcecli/mcp",
     "description": "Query Salesforce CRM records and manage business workflows.",
