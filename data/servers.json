@@ -1770,6 +1770,25 @@
     "official": false
   },
   {
+    "name": "SecureLend Underwriting",
+    "url": "https://github.com/SecureLend/mcp-underwriting",
+    "description": "Remote MCP for credit desks: open a credit file, chase gaps, screen sanctions, draft a cited memo. Person decides.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "TypeScript",
+    "provider": "SecureLend",
+    "tags": [
+      "underwriting",
+      "lending",
+      "credit",
+      "finance",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.securelend.ai/v1/lender/mcp"
+    }
+  },
+  {
     "name": "Darkmoon MCP Server",
     "url": "https://github.com/ASCIT31/darkmoon-mcp-server",
     "description": "Start autonomous AI pentest runs, poll status, list campaigns and read findings on a self-hosted Darkmoon Pro instance over stdio.",
