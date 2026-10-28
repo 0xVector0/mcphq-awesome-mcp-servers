@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 522 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 523 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5243,6 +5243,18 @@ Search AI and tech jobs ranked against a role brief, read a job's application fo
 - Tags: jobs, job-search, interview-prep, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://mcp.landed.jobs/mcp
+
+### Lasso
+
+Find unpaid Amazon links, dry-run higher-rate hops, and report clicks for one site.
+
+- URL: https://getlasso.co/mcp
+- Language: Python
+- Provider: Lasso Analytics
+- Official: yes
+- Tags: affiliate, ecommerce, marketing, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://lasso.link/mcp
 
 ### Leal
 

@@ -2276,6 +2276,24 @@
     }
   },
   {
+    "name": "Lasso",
+    "url": "https://getlasso.co/mcp",
+    "description": "Find unpaid Amazon links, dry-run higher-rate hops, and report clicks for one site.",
+    "category": "finance-commerce-and-business-apps",
+    "language": "Python",
+    "provider": "Lasso Analytics",
+    "tags": [
+      "affiliate",
+      "ecommerce",
+      "marketing",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://lasso.link/mcp"
+    }
+  },
+  {
     "name": "Eigenheim Berlin Market Data",
     "url": "https://github.com/magicSEO/eigenheim-mcp",
     "description": "Hosted, no-key, read-only MCP for Berlin real estate data: prices per m², rental yield, official land values, forecasts and listings.",
