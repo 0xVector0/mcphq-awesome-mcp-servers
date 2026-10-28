@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 512 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 513 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -5344,6 +5344,18 @@ Search NYC apartments and renter guides, explore rent data, and access personal 
 - Tags: housing, apartments, nyc, remote
 - Category: Finance, Commerce, and Business Apps
 - Streamable HTTP endpoint: https://rentreboot.com/api/mcp
+
+### Requstory
+
+Map how a company works from its website, who owns each process, and which steps AI agents can run; search public company maps and AI-readiness scores.
+
+- URL: https://requstory.com/developers/api/
+- Language: PHP
+- Provider: Requstory
+- Official: yes
+- Tags: business-process, operating-model, ai-agents, remote
+- Category: Finance, Commerce, and Business Apps
+- Streamable HTTP endpoint: https://requstory.com/mcp
 
 ### RestoSignals
 
