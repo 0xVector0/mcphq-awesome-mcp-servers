@@ -8148,6 +8148,22 @@
     "official": true
   },
   {
+    "name": "POSH",
+    "url": "https://github.com/skatkov/posh-mcp",
+    "description": "Search and read local Ruby and gem documentation matched to project versions; proprietary POSH agent-tools license required.",
+    "category": "developer-tools-and-code-intelligence",
+    "language": "Go",
+    "provider": "KROONI B.V.",
+    "tags": [
+      "ruby",
+      "rails",
+      "documentation",
+      "local",
+      "stdio"
+    ],
+    "official": true
+  },
+  {
     "name": "send21",
     "url": "https://github.com/send21io/mcp",
     "description": "Create non-custodial crypto pay links and payment drafts in BTC, USDC, USDT, EURC, SOL or ETH; the payer signs in their own wallet.",
