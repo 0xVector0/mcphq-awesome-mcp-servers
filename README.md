@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-[![Servers](https://img.shields.io/badge/servers-487-brightgreen)](#catalog)
+[![Servers](https://img.shields.io/badge/servers-488-brightgreen)](#catalog)
 [![GitHub stars](https://img.shields.io/github/stars/mcpHQ/awesome-mcp-servers?style=flat&logo=github)](https://github.com/mcpHQ/awesome-mcp-servers/stargazers)
 [![Last commit](https://img.shields.io/github/last-commit/mcpHQ/awesome-mcp-servers)](https://github.com/mcpHQ/awesome-mcp-servers/commits/main)
 [![Link check](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml/badge.svg)](https://github.com/mcpHQ/awesome-mcp-servers/actions/workflows/link-check.yml)
@@ -52,7 +52,7 @@ If this list saves you time, please ⭐ star the repo. It helps other people fin
 - [Data, Analytics, and BI](#data-analytics-and-bi) (50)
 - [Legal and Court Data](#legal-and-court-data) (7)
 - [Security and Identity](#security-and-identity) (26)
-- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (92)
+- [Finance, Commerce, and Business Apps](#finance-commerce-and-business-apps) (93)
 - [Utilities and Examples](#utilities-and-examples) (20)
 
 <a id="official-and-reference"></a>
@@ -914,6 +914,8 @@ Payments, banking, CRM, e-commerce, and business system integrations.
   `nft` `blockchain` `base` `minting`
 - **[ATS Zero-Browser Gateway](https://github.com/ginugokz/ats-zero-browser-gateway)** `Official` `Python` — Protocol scraper and MCP server for Workday, Greenhouse, Lever, Ashby, and SmartRecruiters with deterministic ADDED/REMOVED/UPDATED delta tracking, runnable standalone or on Apify.  
   `ats` `recruiting` `job-scraping` `delta-tracking` `apify`
+- **[Award Travel Finder](https://github.com/AwardTravelFinder/mcp)** `Official` `Other` — Search award flight availability and points pricing across 27 airlines and 23 loyalty programs from any MCP client.  
+  `travel` `flights` `airlines` `award-travel` `points`
 - **[BankBridge](https://bankbridge.money)** `Official` `TypeScript` — Hosted MCP server that gives an agent read-only access to your own bank, credit card, and brokerage accounts: balances, transactions, spending summaries, recurring charges, cashflow, and investment holdings.  
   `banking` `personal-finance` `read-only` `remote`
 - **[Best Electrician Jobs](https://github.com/854Labs/best-electrician-jobs)** `Official` `Other` — Hosted OAuth MCP server for employers to manage electrician job posts and applicants on BestElectricianJobs.com: draft and publish jobs, read résumés and move candidates through hiring.  
