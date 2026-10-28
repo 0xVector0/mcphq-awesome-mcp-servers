@@ -5321,6 +5321,24 @@
     "official": false
   },
   {
+    "name": "Scoopkit",
+    "url": "https://github.com/nateslabach/scoopkit-mcp",
+    "description": "Hosted AI-industry news server: returns each story once as a taxonomy-classified event with sources and correction history; no key needed to start, Pro adds semantic search.",
+    "category": "data-analytics-and-bi",
+    "language": "Python",
+    "provider": "Scoopkit",
+    "tags": [
+      "news",
+      "ai-industry",
+      "events",
+      "remote"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://api.scoopkit.dev/mcp"
+    }
+  },
+  {
     "name": "Oh My Android",
     "url": "https://github.com/ateymoori/oh-my-android",
     "description": "Native macOS app with a built-in MCP server that lets AI agents see and drive the Android Emulator and adb devices: screenshots, UI tree in dp, taps, logcat, dark mode, font scale, and locale.",
